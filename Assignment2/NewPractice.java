@@ -1,5 +1,5 @@
-public class NewPractice {
-    public static void main(String[] args) {
+public class NewPractice {                          
+    public static void main(String[] args) {        
         
     }
 }
