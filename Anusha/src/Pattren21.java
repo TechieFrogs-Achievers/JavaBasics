@@ -1,4 +1,4 @@
-public class S 
+public class Pattren21 
 {
    public static void main(String[] args) 
    {
@@ -7,14 +7,15 @@ public class S
         int ch = 65;
         for (int j = 5; j > i; j--)
         {
-            System.out.print(" ");
+            System.out.print('A' + " ");
         }
 
         for (int k = 0; k <= i; k++)
         {
-            System.out.print((char) (ch + i) + " ");
+            System.out.print((char) (ch+i)  + " ");
         }
         System.out.println();
     }
+
    } 
 }

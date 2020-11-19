@@ -8,7 +8,7 @@ public class Doc2Pattern15
         {
             for( char j = 70; j >= i+1; j--)
             {
-                System.out.print( "   " );
+                System.out.print( " " );
             }  
             for( char k = 65; k <=i ; k++) 
             {
@@ -17,9 +17,6 @@ public class Doc2Pattern15
 
             System.out.println();
         }
-
-        
-        
     }
     
 }

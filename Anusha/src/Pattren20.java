@@ -1,7 +1,7 @@
-public class S 
+public class Pattren20 
 {
-   public static void main(String[] args) 
-   {
+  public static void main(String[] args) 
+  {
     for (int i = 0; i <= 5; i++)
     {
         int ch = 65;
@@ -9,12 +9,15 @@ public class S
         {
             System.out.print(" ");
         }
-
         for (int k = 0; k <= i; k++)
         {
-            System.out.print((char) (ch + i) + " ");
+            System.out.print((char) (ch + k));
+        }
+        for (int l = i - 1; l >= 0; l--)
+        {
+            System.out.print((char) (ch + l));
         }
         System.out.println();
-    }
-   } 
+    }  
+  }  
 }
