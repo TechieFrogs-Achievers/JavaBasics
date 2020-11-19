@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Patterns2 
 {
 public static void main(String[] args)
@@ -307,7 +309,7 @@ public static void main(String[] args)
 */
     //22th pattern
 
-/*    for( i='A'; i<='F'; i++)
+ /*for( i='A'; i<='F'; i++)
     {
         for( l=i; l<='F'; l++)
         {
@@ -320,10 +322,11 @@ public static void main(String[] args)
         System.out.println();
     }
 */
+
   //23rd pattern
   
- /* for(i='A'; i<='F'; i++)
-  {
+/* for(i='A'; i<='F'; i++)
+   {
       for(l='F'; l>=i; l--)
       {
           System.out.print(" ");
@@ -333,8 +336,119 @@ public static void main(String[] args)
           System.out.print(" "+i);
       }
       System.out.println();
-  }
-  */
+    }
+*/
+   //24th paattern
+
+/*  String s="JAVA";
+   for(int x=1; x<=s.length(); x++)
+   {
+       for(int y=s.length(); y>=x; y--)
+       {
+           System.out.print(" ");
+       }
+       for(int z=1; z<=(2*x-1); z++)
+       {
+           System.out.print(s.charAt(x-1));
+       }
+       System.out.println();
+   }
+   */
+    //25th pattern
+ /*   int letter=65;
+    for(int x=0; x<=4; x++)
+    {
+        if(x%2==0)
+        {
+            for(int y=0; y>=x; y--)
+            {
+                System.out.print((char)(letter+x));
+            }
+        }
+            else
+            {
+              System.out.print((char)(letter));
+            }
+        System.out.println();
+    }
+    */
+
+    //27th pattern
+
+/*  int letter = 65;
+    for(int x=0; x<=5;x++)
+    {
+        for(int y=0; y<=5; y++)
+        {
+            System.out.print((char)(letter+x+y));
+        }
+        System.out.println();
+    }
+*/
+     //28th pattern
+
+ /*   int letter=65;
+    for(int x=0; x<=4; x++)
+    {
+        for(int y=0; y<=4-x; y++)
+        {
+            System.out.print((char)(letter+y));
+        }
+        for(int z=5-x-2; z>=0;z--)
+        {
+            System.out.print((char)(letter+z));
+        }
+
+        System.out.println();
+    }
+*/
+    //31 pattern
+
+ /*   char c='J';
+    for(int x=0; x<=3; x++)
+    {
+        for(int y=0; y<=x; y++)
+        {
+            System.out.print(c);
+            c--;
+        }
+        System.out.println();
+    }
+*/
+
+    
+
+  //33th pattern
+
+ /* for(i='A'; i<='E'; i++)
+    {
+        char c=i;
+        for(j=i; j>='A'; j--)
+        {
+            System.out.print(c);
+            c+=4;
+        }
+        System.out.println();
+    }
+ */
+
+
+   //34th pattern
+   
+
+
+    //34th pattern
+
+    
+
+
+
+
+
+
+
+
+  
 
 
 
