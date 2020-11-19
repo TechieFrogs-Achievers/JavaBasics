@@ -261,58 +261,36 @@ public class AbcdPatterns
              System.out.println();
       }  */
 
-     /* //(18)
+    /*  //(18)
          char i,j,k;
       for( i='A'; i<='F'; i++)
       {
-          for( j='A'; j<=i; j++)
-          {
-  
-              System.out.print(" ");
-          }
-           for( k=i; k<='F' ; k++)
-              {
-                  System.out.print(" "+k);
-              }
-              System.out.println();
-       }  */
-
-     //(21) 
-    
-    for( char i='A'; i<='F'; i++)
-    {
-        for( char j='F'; j>=i; j--)
+        for( k=i; k<='F' ; k++)
         {
-         System.out.print("A");
-        }
-    
-        for(char k='A'; k<=i ; k++)
-        {
-         System.out.print(k);
+          System.out.print(k);
          }
          System.out.println();
-     }  
+       }  
+    for( j='F'; j>='A'; j--)
+     { 
+          for( k=j; k<='F' ; k++)
+             {
+                 System.out.print(k);
+             }
+             System.out.println();
+      }  */
 
 
-    /* //(23)
-     char i,j,k;
-     for(i='A'; i<='F'; i++)
-     {
-         for(k='F'; k>=i; k--)
-         {
-             System.out.print(" ");
-         }
-         for(j='A'; j<=i; j++)
-         {
-             System.out.print(" "+i);
-         }
-         System.out.println();
-    }    */
-
-
- 
+     /* // (19)
+      char j,k;
+      for( j='F'; j>='A'; j--)
+     { 
+          for( k=j; k<='F' ; k++)
+             {
+                 System.out.print(k);
+             }
+             System.out.println();
+      }   */
+  }
     }
-
-     
-         }
      

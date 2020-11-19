@@ -1,5 +1,5 @@
-public class Alpha25
- {
+class Alpha25
+{
     public static void main(String[] args)
     {
         int count=1;
@@ -11,7 +11,7 @@ public class Alpha25
                 int rev=row+count-1;
                 for(int j=0;j<i;j++)
                 {
-                    System.out.print((char)(rev+alphabet-1)+" ");
+                    System.out.println((char)(rev+alphabet-1)+" ");
                     rev--;
                     count++;
                 }
@@ -20,7 +20,7 @@ public class Alpha25
             {
                 for(int j=1;j<=i;j++)
                 {
-                    System.out.print((char)(count+alphabet-1)+" ");
+                    System.out.println((char)(count+alphabet-1)+" ");
                     count++;
                 }
              }
@@ -28,4 +28,4 @@ public class Alpha25
              row++;
             }
         }
-}
+    }
