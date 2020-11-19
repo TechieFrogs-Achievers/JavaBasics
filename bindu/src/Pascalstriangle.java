@@ -1,6 +1,6 @@
 public class Pascalstriangle {
     public static void main(String[] args) {
-        int k =5, num=1,m,n;
+        int k =5,num=1,m,n;
         int value =k;
         for(m=0;m<k;m++)
         {
