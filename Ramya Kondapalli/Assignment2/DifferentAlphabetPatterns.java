@@ -132,7 +132,7 @@ public class DifferentAlphabetPatterns {
             }
         }*/
         //pattern 12
-        for (int i=0;i<=5;i++)
+        /*for (int i=0;i<=5;i++)
         {
             System.out.println();
             int temp =i;
@@ -141,6 +141,83 @@ public class DifferentAlphabetPatterns {
                 System.out.print(((char)(65+temp))+ " ");
                 temp = temp+5;
             }
+        }*/
+        //Pattern 15
+        /*for (int i=70;i>=65;i--)
+        {
+            System.out.println();
+            for(int j=69;j>=i-1;j--)
+            {
+                System.out.print(" ");
+            }
+            for (int k=65;k<=i;k++)
+            {
+                System.out.printf("%c ",k);
+            }
+        }*/
+        //pattern 16
+         /*for (int i=65;i<=70;i++)
+         {
+            System.out.println();
+            for (int j=70;j>=i;j--)
+            {
+                System.out.print(" ");
+            }
+            for (int k=65;k<=i;k++)
+            {
+                System.out.printf("%c ",k);
+            }
+         }
+         for (int i=70;i>=65;i--)
+         {
+            System.out.println();
+            for (int j=70;j>=i-1;j--)
+            {
+                System.out.print(" ");
+            }
+            for(int k=65;k<=i-1;k++)
+            {
+                System.out.printf("%c ",k);
+            }
+         }*/
+         //pattern 17
+        /*for (int i=65;i<=70;i++)
+        {
+            System.out.println();
+            for(int j=i;j>=65;j--)
+            {
+                System.out.print(" ");
+            }
+            for (int k=i;k<=70;k++)
+            {
+                System.out.printf("%c",k);
+            }
         }
+        for(int i=70;i>=65;i--)
+        {
+            System.out.println();
+            for (int j=i;j>=65;j--)
+            {
+               System.out.print(" ");
+            }
+            for (int k=i;k<=70;k++)
+            {
+                System.out.printf("%c",k);
+            }
+        }*/
+        //pattern 18
+        for (int i=65;i>=65;i--)
+        {
+            System.out.println();
+            for (int j=70;j>=i-1;j--)
+            {
+                System.out.print(" ");
+            }
+            for (int k=i;k<=i;k++)
+            {
+                System.out.printf("%c ",k);
+            }
+        }
+
     }
 }

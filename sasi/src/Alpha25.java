@@ -1,12 +1,31 @@
 public class Alpha25
-{
+ {
     public static void main(String[] args)
     {
-        for(int i=1;i<=6;i++)
+        int count=1;
+        int row=1,alphabet=65;
+        for(int i=1;i<=5;i++)
         {
-            for(int j=1;j<=6-i;j++)
+            if(i%2==0)
             {
-                System.out.print(" ");
+                int rev=row+count-1;
+                for(int j=0;j<i;j++)
+                {
+                    System.out.print((char)(rev+alphabet-1)+" ");
+                    rev--;
+                    count++;
+                }
             }
-            
-    }
+            else
+            {
+                for(int j=1;j<=i;j++)
+                {
+                    System.out.print((char)(count+alphabet-1)+" ");
+                    count++;
+                }
+             }
+             System.out.println();
+             row++;
+            }
+        }
+}
