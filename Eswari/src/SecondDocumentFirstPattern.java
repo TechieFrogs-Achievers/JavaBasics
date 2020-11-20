@@ -25,4 +25,6 @@ public class SecondDocumentFirstPattern
         SecondDocumentFirstPattern s= new SecondDocumentFirstPattern();
         s.firstPattern(5);
     }
+	public void alphaNumericPattern(int i) {
+	}
 }
