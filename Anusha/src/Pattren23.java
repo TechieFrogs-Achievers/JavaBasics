@@ -1,7 +1,7 @@
-public class S 
+public class Pattren23 
 {
-   public static void main(String[] args) 
-   {
+  public static void main(String[] args) 
+  {
     for (int i = 0; i <= 5; i++)
     {
         int ch = 65;
@@ -16,5 +16,5 @@ public class S
         }
         System.out.println();
     }
-   } 
+  }  
 }
