@@ -1,9 +1,9 @@
 public class Triangle 
 {
     //initializing sides of triangle
-    int firstSide=3;
-    int secondSide=4;
-    int thirdSide=5;
+    int firstSide;
+    int secondSide;
+    int thirdSide;
     
     //method to calculate perimeter of triangle
     public int perimeter()
