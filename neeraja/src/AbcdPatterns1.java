@@ -180,18 +180,9 @@ public class AbcdPatterns1
         }  */
 
 
-        //(36)
-        char k='A';
-        for(int  i=0; i<=4; i++)
-        {
-            for(int j=i; j>=0; j--)
-            {
-                 System.out.print((char) (z+k));
-                    k+=4;
-                }
-             System.out.println();
-            }  
-
+        //(32
+        )
+       
        
     
 }  
