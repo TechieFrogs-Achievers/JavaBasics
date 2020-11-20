@@ -1,9 +1,9 @@
 public class Triangle 
 {
     //initializing sides of triangle
-    int firstSide=3;
-    int secondSide=4;
-    int thirdSide=5;
+    int firstSide;
+    int secondSide;
+    int thirdSide;
     
     //method to calculate perimeter of triangle
     public int perimeter()
@@ -25,6 +25,12 @@ public class Triangle
     {
         //object for the class triangle
         Triangle triobj=new Triangle();
+        
+        /* triobj.firstSide=3;
+           triobj.secondSide=4;
+           triobj.thirdSide=5;
+        */
+
 
         // method calls
         int p=triobj.perimeter();

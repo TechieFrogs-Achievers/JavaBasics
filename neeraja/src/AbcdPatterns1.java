@@ -135,7 +135,62 @@ public class AbcdPatterns1
             System.out.println();
         }    */
 
-       /* //(31)
+        //29th pattern
+
+  /*  for(int x=1; x<=7; x++)
+    {
+        for(int y=1; y<=7-x; y++)
+        {
+            System.out.print((char)(64+y));
+        }
+        for(int z=1;z<=(2*x-1); z++)
+        {
+            System.out.print(" ");
+        }
+        for(int t=7-x; t>=1; t--)
+        {
+            System.out.print((char)(64+t));
+        }
+        System.out.println();
+    }
+
+    //30th pattern
+
+    for(int x=1; x<=6; x++)
+    {
+        for(int y=1; y<=7-x; y++)
+        {
+            System.out.print((char)(64+y));
+        }
+        for(int z=1;z<=(2*x-1); z++)
+        {
+            System.out.print(" ");
+        }
+        for(int t=7-x; t>=1; t--)
+        {
+            System.out.print((char)(64+t));
+        }
+        System.out.println();
+    }
+    for(int x=6; x>=1; x--)
+    {
+        for(int y=1; y<=7-x; y++)
+        {
+            System.out.print((char)(64+y));
+        }
+        for(int z=1;z<=(2*x-1); z++)
+        {
+            System.out.print(" ");
+        }
+        for(int t=7-x; t>=1; t--)
+        {
+            System.out.print((char)(64+t));
+        }
+        System.out.println();
+    }  */
+
+
+    /* //(31)
         char k='J';
         for (int i=0; i<=3; i++)
         {
@@ -180,8 +235,8 @@ public class AbcdPatterns1
         }  */
 
 
-        //(32
-        )
+        
+        
        
        
     
