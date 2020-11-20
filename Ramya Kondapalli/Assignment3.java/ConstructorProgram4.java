@@ -9,7 +9,7 @@ class Triangle1{
         System.out.println("Perimeter of triangle : " + perimeter);
     }
 }
-public class ConstructorPrograms4 {
+public class ConstructorProgram4 {
     public static void main(String[] args) {
     Triangle1 t = new Triangle1(3,4,5);
     }
