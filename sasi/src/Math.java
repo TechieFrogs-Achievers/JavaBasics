@@ -9,4 +9,8 @@ public class Math
         System.out.println("mod:"+var);
     }
 
+	public static double pow(double d, double s) {
+		return 0;
+	}
+
 }
