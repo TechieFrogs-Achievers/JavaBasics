@@ -189,19 +189,18 @@ public static void main(String[] args)
 
     //14th pattern
 
- /*   for( i='A'; i<='F'; i++)
+    for(int x=1;x<=6;x++)
     {
-        for( j='A'; j<=i; j++)
+        for(int y=1;y<=x;y++)
         {
-            System.out.print(j);
-        }
-        for(l='B'; l>=i; l--)
+            System.out.print((char)(y+64)+" ");
+        }       
+        for(int y=x-1;y>=1;y--)
         {
-            System.out.print(l);
+            System.out.print((char)(y+64)+" ");
         }
         System.out.println();
     }
-    */
 
     // 15th pattern
 
