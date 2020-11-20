@@ -25,6 +25,12 @@ public class Triangle
     {
         //object for the class triangle
         Triangle triobj=new Triangle();
+        
+        /* triobj.firstSide=3;
+           triobj.secondSide=4;
+           triobj.thirdSide=5;
+        */
+
 
         // method calls
         int p=triobj.perimeter();
