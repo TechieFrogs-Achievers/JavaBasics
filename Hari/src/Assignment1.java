@@ -331,7 +331,7 @@ public class Assignment1
 
 
 
-   /* public static void main(String[] args)
+    /*public static void main(String[] args)
     {
         int k = 0 ;
         for ( int i = 1 ; i <= 5 ; ++i , k = 0 )
@@ -342,31 +342,214 @@ public class Assignment1
             }
             while (k != 2 * i - 1 )
             {
-                System.out.print("* ");
+                System.out.print(" * ");
                 k++ ;
             }
             System.out.println();
         }
     }   */
-    
-    
-    /* 24. Inverted pyramid with * 
-    public static void main(String []args)
+
+
+
+    public static void main (String[] args) 
     {
-        int rows = 5 ;
-        for( int i = 0 ; i <= rows-1 ; i ++ )
+        for (int i = 1; i <= 4; i++)
         {
-            for (int j =0 ; j <= i ; j ++)
-            {
+            int rows = 5 ;
+            for (int j = 1; j <= rows - i ; j++) 
+            { 
                 System.out.print(" ");
             }
-            for (int k = 0 ; k <= rows-1-i ; k++ )
+            for ( int k = i ; k >= 1  ; k-- )
             {
-                System.out.print("*" + " ");
+                System.out.print(k);
+            }
+            for (int l = 2 ; l <= i ; l++)
+            { 
+                System.out.print(l); 
+            } 
+            System.out.println(); 
+        }
+    } 
+
+    
+    
+     //24. Inverted pyramid with * 
+    /*public static void main(String[] args)  
+    {  
+        int rows=8;  
+        for (int i= 0; i<= rows-1; i++)  
+        {  
+            for (int j=0; j<=i; j++)  
+            {  
+                System.out.print(" ");  
+            }  
+            for (int k=0; k<=rows-1-i; k++)  
+            {  
+                System.out.print("*" + " ");  
+            }  
+             System.out.println();  
+        }  
+    }  */
+
+
+    // 25. Pascal's Triangle
+    /*public static void main(String []args)
+    {
+        int n = 5 ;    //n is the number of rows you want to print  
+        for (int i = 0 ; i < n ; i++)   
+        {  
+            int num = 1;  
+            System.out.printf("%" + (n - i) * 2 + "s", "");  
+            for (int j = 0; j <= i; j++)   
+            {  
+                System.out.printf("%4d", num );  
+                num = num * (i - j) / (j + 1);  
+            }  
+            System.out.println();  
+        }
+    } */
+
+
+
+    // 26. Floyd triangle
+    /*public static void main(String []args)
+    {
+        int k = 1 ;
+        for ( int i = 1 ; i <= 4 ; i++ )
+        {
+            for ( int j = 1 ; j <= i ; j++ )
+            {
+                System.out.print(k++ + " ");
             }
             System.out.println();
         }
-    } */
+    }*/
+
+
+
+
+    /* 27. Diamond Pattern with *
+    public static void main(String args[])  
+    {  
+        int row = 8 , i, j, space = 1;    
+        space = row - 1;  
+        for (j = 1; j<= row; j++)  
+         {  
+            for (i = 1; i<= space; i++)  
+            {  
+                System.out.print(" ");  
+            }  
+        space--;  
+        for (i = 1; i <= 2 * j - 1; i++)  
+        {  
+            System.out.print("*");  
+        }  
+        System.out.println("");  
+    }  
+    space = 1;  
+    for (j = 1 ; j <= row - 1 ; j++)  
+    {  
+        for (i = 1 ; i <= space ; i++)  
+        {  
+            System.out.print(" ");  
+        }  
+        space++;  
+        for (i = 1 ; i <= 2 * (row - j) - 1 ; i++)  
+        {  
+            System.out.print("*");  
+        }  
+    System.out.println("");  
+    }  
+} */  
+
+
+
+
+// 28. Right Pascal's Triangle
+/*public static void main (String []args)
+{          
+    for ( int i = 1 ; i <= 8 ; i++)  
+    {  
+        for (int j = 1 ; j <= i ; j++)   
+        {  
+            System.out.print("*"+ " ");  
+        }   
+        System.out.println();   
+    }   
+    for (int  i = 7 ; i >= 1 ; i--)  
+    {  
+        for( int j = 0 ; j <= i-1 ; j++)  
+        {  
+            System.out.print("*"+ " ");  
+        }  
+        System.out.println("");  
+    }  
+} */
+
+
+
+// 29. Left Pascal's Triangle
+/*public static void main(String[] args)  
+{  
+    int i, j, k, rows = 10 ;         
+    for (i= 1; i<= rows ; i++)  
+    {  
+        for ( j = i ; j < rows ; j++)              
+        {  
+            System.out.print(" ");  
+        }  
+        for  ( k =1 ; k <= i ; k++)   
+        {  
+            System.out.print("*");   
+        }   
+        System.out.println("");   
+    }   
+    for ( i = rows; i >= 1 ; i--)  
+    {  
+        for( j = i ; j <= rows ; j++)  
+        {  
+            System.out.print(" ");  
+        }  
+        for( k = 1 ; k < i ; k++)   
+        {
+            System.out.print("*");
+        }
+        System.out.println(" ");
+    }
+} */      
+
+
+
+// 30. Sandglass Star Pattern
+/*public static void main(String[] args)  
+{  
+    int i, j, k, n = 10 ;           
+    for (i= 0; i<= n-1 ; i++)  
+    {  
+        for (j=0; j<i; j++)  
+        {  
+            System.out.print(" ");  
+        }  
+    for (k=i; k<=n-1; k++)   
+        {   
+            System.out.print("*" + " ");   
+        }   
+        System.out.println("");   
+    }   
+    for (i= n-1; i>= 0; i--)  
+    {  
+        for (j=0; j<i; j++)  
+        {  
+            System.out.print(" ");  
+        }  
+        for (k=i; k<=n-1; k++)  
+        {  
+            System.out.print("*" + " ");  
+        }  
+    System.out.println("");  
+    }
+}  */
 
 
     
