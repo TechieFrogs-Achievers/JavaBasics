@@ -1,24 +1,25 @@
 public class Triangle
 {
-  int s1, s2, s3, z;
+   //initilize the sides of a triangle
+
+  int s1 = 3;
+  int s2 = 4;
+  int s3 = 5;
   public int Perimeter()
   {
-      int perimeter = (s1+s2+s3)/2;
-      perimeter = z;
-      return z;
+      int Perimeter = (s1+s2+s3)/2;
+      return Perimeter;
   }
-  public int area()
-  {
-     int  area = Math.sqrt(z*(z-s1)*(z-s2)*(z-s3));
+  public double area()
+  { double s = (s1+s2+s3)/2;
+     double  area = Math.sqrt(s*(s-s1)*(s-s2)*(s-s3));
      return area;
   }
   public static void main(String[] args) 
   {
      Triangle t = new Triangle();
-     t.s1 = 3;
-     t.s2 = 4;
-     t.s3 = 5;
-     System.out.println(t.z + " "+ t.area());
+     System.out.println(t.Perimeter()+" " +t.area());
+     
 
 
   }  
