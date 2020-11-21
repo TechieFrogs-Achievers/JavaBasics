@@ -1,11 +1,13 @@
 class Student1{
+    //instance variables
     String name;
     int roll_no;
     long phoneNumber;
     String address;
-    public Student1(String name,int roll_no,long phoneNumber,String address)
+    //create constructor
+    public Student1(String name, int roll_no, long phoneNumber, String address)
     {
-        this.name = name;
+        this.name = name;//using this keyword for pointing current object
         this.roll_no = roll_no;
         this.phoneNumber = phoneNumber;
         this.address = address;
@@ -15,7 +17,8 @@ class Student1{
 }
 public class ConstructorProgram2 {
     public static void main(String[] args) {
-       Student1 s1 = new Student1("Sam",1,358872871,"Hyd");
-       Student1 s2 = new Student1("John",2,657688768,"Rjy");
+        //creating two objects for same class
+       Student1 s1 = new Student1("Sam",1,358872871,"Hyd"); //parametrised constructor
+       Student1 s2 = new Student1("John",2,657688768,"Rjy");//parametrised constructor
     }
 }
