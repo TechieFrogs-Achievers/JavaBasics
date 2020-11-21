@@ -1,10 +1,11 @@
-import java.util.Scanner;
+
 
 public class Patterns2 
 {
 public static void main(String[] args)
 {
     char i, j, l;
+    int coeff=1, temp=1;
    // 1st pattens
     
 /*  for( i='A'; i<='F'; i++)
@@ -185,6 +186,25 @@ public static void main(String[] args)
         System.out.println();
     }
  */   
+    //13th pattern
+    for(int x=0; x<=6; x++)
+    {
+        
+        for(int y=0; y<=x; y++)
+        {
+            if(y==0 ||x==0)
+            {
+                 coeff=1;
+            }
+            else{
+             coeff=coeff*(x-y+1)/y;
+            }
+            System.out.print((char)(coeff+64));
+        }
+        System.out.println();
+           
+        
+    }
 
 
     //14th pattern
@@ -306,6 +326,39 @@ public static void main(String[] args)
         System.out.println();
     }
 */
+    //20th pattern
+    for(int x=1;x<=6;x++)
+    {
+        for(int z=5; z>=x; z--)
+        {
+            System.out.print(" ");
+        }
+        for(int y=1;y<=x;y++)
+        {
+            System.out.print((char)(y+64)+" ");
+        }       
+        for(int y=x-1;y>=1;y--)
+        {
+            System.out.print((char)(y+64)+" ");
+        }
+        System.out.println();
+    }
+
+    //21th pattern
+
+    for(int x=1; x<=6; x++)
+    {
+        for(int z=6; z>=x;z-- )
+        {
+            System.out.print((char)(65));
+        }
+        for(int y=1; y<=x; y++)
+        {
+            System.out.print((char)(x+64));
+        }
+        System.out.println();
+    }
+ 
     //22th pattern
 
  /*for( i='A'; i<='F'; i++)
@@ -354,23 +407,23 @@ public static void main(String[] args)
    }
    */
     //25th pattern
- /*   int letter=65;
-    for(int x=0; x<=4; x++)
+    for(int x=1; x<=5; x++)
     {
         if(x%2==0)
         {
-            for(int y=0; y>=x; y--)
+            for(int y=x+1; y>=x; y--)
             {
-                System.out.print((char)(letter+x));
+               System.out.print((char)(65+temp+1));
+               temp--;
             }
         }
             else
             {
-              System.out.print((char)(letter));
+              System.out.print((char)(x+65));
             }
         System.out.println();
     }
-    */
+    
 
     //27th pattern
 
@@ -401,6 +454,63 @@ public static void main(String[] args)
         System.out.println();
     }
 */
+    //29th pattern
+
+    for(int x=1; x<=7; x++)
+    {
+        for(int y=1; y<=7-x; y++)
+        {
+            System.out.print((char)(64+y));
+        }
+        for(int z=1;z<=(2*x-1); z++)
+        {
+            System.out.print(" ");
+        }
+        for(int t=7-x; t>=1; t--)
+        {
+            System.out.print((char)(64+t));
+        }
+        System.out.println();
+    }
+
+    //30th pattern
+
+    for(int x=1; x<=6; x++)
+    {
+        for(int y=1; y<=7-x; y++)
+        {
+            System.out.print((char)(64+y));
+        }
+        for(int z=1;z<=(2*x-1); z++)
+        {
+            System.out.print(" ");
+        }
+        for(int t=7-x; t>=1; t--)
+        {
+            System.out.print((char)(64+t));
+        }
+        System.out.println();
+    }
+    for(int x=6; x>=1; x--)
+    {
+        for(int y=1; y<=7-x; y++)
+        {
+            System.out.print((char)(64+y));
+        }
+        for(int z=1;z<=(2*x-1); z++)
+        {
+            System.out.print(" ");
+        }
+        for(int t=7-x; t>=1; t--)
+        {
+            System.out.print((char)(64+t));
+        }
+        System.out.println();
+    }
+
+
+
+
     //31 pattern
 
  /*   char c='J';

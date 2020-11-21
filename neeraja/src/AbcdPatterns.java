@@ -165,26 +165,45 @@ public class AbcdPatterns
          System.out.println();
         }  */
 
-     /*   // (14)
-        
-        for(int i=1; i<=6; i++)
-        {
-            char z='A';
-            for(int j=1; j<=i ;j++)
-            {
-               System.out.print(z);
-                z++;
-            }  
+      /*//13th pattern
+     int coeff=0;
+     for(int x=0; x<=6; x++)
+     {
+         
+         for(int y=0; y<=x; y++)
+         {
+             if(y==0 ||x==0)
+             {
+                  coeff=1;
+             }
+             else
+             {
+              coeff=coeff*(x-y+1)/y;
+             }
+             System.out.print((char)(coeff+64));
+         }
+         System.out.println();
             
-            for(int k=1; k>=1;k--)
-            {
-                System.out.print(z);
-                z--;
-
-            }     
-            System.out.println();
-         }   */
-
+         
+     } */
+ 
+ 
+    /* //14th pattern
+ 
+     for(int x=1;x<=6;x++)
+     {
+         for(int y=1;y<=x;y++)
+         {
+             System.out.print((char)(y+64)+" ");
+         }       
+         for(int y=x-1;y>=1;y--)
+         {
+             System.out.print((char)(y+64)+" ");
+         }
+         System.out.println();
+     }  */
+ 
+    
          /*//(15)
          char i,j;
          for( i='F'; i>='A'; i--)
