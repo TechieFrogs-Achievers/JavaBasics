@@ -23,7 +23,7 @@ public class AreaOfTwoRectangles
          AreaOfTwoRectangles  rect2 = new AreaOfTwoRectangles(5, 8);
          System.out.println( " area of 1st  rectangle = " +rect1.area()+ " --"+ " perimeter of 1st tringle = "+ rect1.perimeter());
          System.out.println( " area of 1st  rectangle = " +rect2.area()+ " --"+ " perimeter of 1st tringle = "+ rect2.perimeter());
-         
+    
      }
     
 }
