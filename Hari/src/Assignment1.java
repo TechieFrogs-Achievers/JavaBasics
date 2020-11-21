@@ -1,9 +1,9 @@
 public class Assignment1 
 {
    /* 1. Adding of two numbers
-   public static int add(int a, int b)
+   public static int add(int a, int b) // calling a method
     {
-        int c = a + b ;
+        int c = a + b ;  // Adding of two numbers
         return c ;
     }
     public static void main(String []args)
@@ -15,14 +15,14 @@ public class Assignment1
 
 
    /* 2. finding remainder and quotient
-   public static float rem (float a , float b)
+   public static float rem (float a , float b) // calling a method
     {
-        float c = a % b ;
+        float c = a % b ; // finding remainder
         return c;
     }
     public static float quo ( float d, float e)
     {
-        float f = d / e ;
+        float f = d / e ; // finding quotient
         return f ;
     }
     public static void main(String[] args)
@@ -50,7 +50,7 @@ public class Assignment1
    /* 4. Even or Odd
    public static void main(String []args)
     {
-        int num = 57 ;
+        int num = 57 ; // initialising variable
         String a = "Even" ;
         String b = "Odd" ;
         String output = (num % 2 == 0) ? a : b ; // checking whether even or odd
@@ -63,7 +63,7 @@ public class Assignment1
    public static void main(String []args)
     {
         char ch = 'V' ;
-        if ( ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+        if ( ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') // checking whether given alphabet is a vowel
         System.out.println("Given alphabet is Vowel");
         else
         System.out.println("Given alphabet is Consonant");
@@ -88,7 +88,7 @@ public class Assignment1
     public static void main(String []args)
     {
         char ch = '^' ;
-        if (( (int) ch >= 97 && (int) ch <= 122) || ((int) ch >= 65 && (int) ch <= 90))
+        if (( (int) ch >= 97 && (int) ch <= 122) || ((int) ch >= 65 && (int) ch <= 90)) // checking whether input is alphabet or not
         System.out.println("Given character is Alphabet");
         else 
         System.out.println("Given character is not an Alphabet");
@@ -140,10 +140,10 @@ public class Assignment1
     {
         int gcd = 1 ;
         int n1 = 6 , n2 = 9 ;
-        int n3 = ( n1 < n2 )? n1 : n2 ;
+        int n3 = ( n1 < n2 )? n1 : n2 ; // checking which is smaller
         for(int i = 1 ; i <= n3 ; i++ )
         {
-            if ( n1 % 1 == 0 && n2 % i ==0 )
+            if ( n1 % 1 == 0 && n2 % i ==0 ) // checking whether the number is divisible by both the given inputs
             {
                 gcd = i ;
             }
@@ -153,13 +153,13 @@ public class Assignment1
 
 
 
-    /* 12. LCM of two numbers
-    public static void main (String []args)
+    //12. LCM of two numbers
+    /*public static void main (String []args)
     {
         int LCM = 1 ;
-        int n1 = 14 , n2 = 15 ;
-        int n3 = n1 * n2 ;
-        int n4 = ( n1 > n2 ) ? n1 : n2 ;
+        int n1 = 24 , n2 = 16;
+        int n3 = n1 * n2 ; // maximum limit of lcm
+        int n4 = ( n1 > n2 ) ? n1 : n2 ; // minimum limit of lcm i.e., largest among two
         for ( int i = n4 ; i <= n3 ; i++ )
         {
             if ( i % n1 == 0 && i % n2 == 0 )
@@ -178,7 +178,7 @@ public class Assignment1
     {
         for ( int i = 65 ; i <= 90 ; i++)
         {
-            System.out.print((char) i );
+            System.out.print((char) i ); // converting int to string using ascii values
         }
         System.out.println();
         for (int j = 97 ; j <= 122 ; j++)
@@ -193,7 +193,7 @@ public class Assignment1
     public static void main (String []args)
     {
         int num = 28 ;
-        int count =0 ;
+        int count =0 ; // number of factors that the given input is having
         for( int i = 2 ; i<= num/2 ; i++ )
         {
             if ( num % i == 0 )
@@ -201,7 +201,7 @@ public class Assignment1
                 count++ ;
             }
         }
-        if( count == 0 )
+        if( count == 0 )  // no factors
         System.out.println("Given number is a Prime number");
         else 
         System.out.println("Given number is not a Prime number");
@@ -215,7 +215,7 @@ public class Assignment1
         int num = 74147 ;
         int rem = 0 , sum = 0 ;
         int temp = num ;
-        while ( num > 0 )
+        while ( num > 0 )  // reversing a number
         {
             rem = num % 10 ;
             sum = sum * 10 + rem ;
@@ -238,7 +238,7 @@ public class Assignment1
         int num = 151 ;
         int arm = 0 , rem = 0 ;
         int temp = num;
-        while ( num > 0 )
+        while ( num > 0 )  // calculating sum of cubes of each digit
         {
             rem = num % 10 ;
             arm = arm + (rem * rem * rem) ;
@@ -351,7 +351,7 @@ public class Assignment1
 
 
 
-    public static void main (String[] args) 
+    /*public static void main (String[] args) 
     {
         for (int i = 1; i <= 4; i++)
         {
@@ -370,7 +370,7 @@ public class Assignment1
             } 
             System.out.println(); 
         }
-    } 
+    } */
 
     
     
@@ -429,14 +429,14 @@ public class Assignment1
 
 
 
-    /* 27. Diamond Pattern with *
-    public static void main(String args[])  
+    //27. Diamond Pattern with *
+    /*public static void main(String args[])  
     {  
-        int row = 8 , i, j, space = 1;    
-        space = row - 1;  
-        for (j = 1; j<= row; j++)  
-         {  
-            for (i = 1; i<= space; i++)  
+        int rows = 8 , i, j, space = 1;    
+        space = rows - 1;  
+        for (j = 1; j <= rows ; j++)  
+        {  
+            for (i = 1; i <= space ; i++)  
             {  
                 System.out.print(" ");  
             }  
@@ -448,20 +448,20 @@ public class Assignment1
         System.out.println("");  
     }  
     space = 1;  
-    for (j = 1 ; j <= row - 1 ; j++)  
+    for (j = 1 ; j <= rows - 1 ; j++)  
     {  
         for (i = 1 ; i <= space ; i++)  
         {  
             System.out.print(" ");  
         }  
         space++;  
-        for (i = 1 ; i <= 2 * (row - j) - 1 ; i++)  
+        for (i = 1 ; i <= 2 * (rows - j) - 1 ; i++)  
         {  
             System.out.print("*");  
         }  
     System.out.println("");  
     }  
-} */  
+} */
 
 
 
