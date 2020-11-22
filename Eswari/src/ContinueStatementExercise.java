@@ -1,3 +1,4 @@
+//example for continue jump statement
 public class ContinueStatementExercise 
 {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class ContinueStatementExercise
             if(employeeId == 516)
             {
 
-                continue;
+                continue;           //escape present iteration continue next iterations
             }
             System.out.println("Employee id is "+employeeId);
         }
