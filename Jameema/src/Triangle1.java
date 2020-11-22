@@ -15,7 +15,8 @@ public class Triangle1
     }
     public static void main(String[] args) 
     {
-        Triangle1 t= new Triangle1(3,4,5);
+        new Triangle1(3,4,5);
+        new Triangle1(4,5,6);
         
     }
     
