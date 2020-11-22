@@ -3,9 +3,10 @@ public class NumberPattern2 {
        
         String s ="0";
         System.out.println(s);
-        for (int j=9;j>=1;j--)
+        for (int j=9;j>=1;j--)//loop for printing numbers
         {
         s = j + s+ j;
+        //It will print numbers 
         System.out.println(s);
         
         }
