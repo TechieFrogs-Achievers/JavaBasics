@@ -1,3 +1,4 @@
+import java.util.*;
 class Area
 {
     int length,breadth;
@@ -23,6 +24,12 @@ public class RectangleProgram1
        Area a=new Area();//object creation
        a.setDim(4,5);//assign values
       a.getArea();//method calling 
+      Scanner sc=new Scanner(System.in);//take input from keyboard
+      System.out.println("Enter length of the Rectangle: ");
+      int a1=sc.nextInt();
+      System.out.println("enter the breadth of the Rectangle:");
+      int b=sc.nextInt();
+      a.getArea();
 
     }
 }

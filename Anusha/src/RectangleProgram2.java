@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Area1
 {
     int length,breadth;
@@ -19,8 +20,15 @@ public class RectangleProgram2
 {
     public static void main(String[] args) 
     {
-      Area1 a=new Area1(4,5);//assign values
+      Area1 a=new Area1(3,4);//assign values
       a.returnArea();//method calling 
+      Scanner sc = new Scanner(System.in);//take input from kryboard
+        System.out.println("enter the length of the Rectangle:");
+        int a1=sc.nextInt();
+        System.out.println("enter the length of the Rectangle:");
+        int b=sc.nextInt();
+        a.returnArea();
+
     }
     
 }

@@ -5,14 +5,14 @@ class AddDistance
     {
         inches1=in1;inches2=in2;
         int inches=inches1+inches2;
-        int diff=inches-12;
+        //total distance
         if(inches>=12)
         {
              feet++;
-            System.out.print("feet="+feet++);
-            System.out.print(diff+"inches");
-            
+             inches=inches-12;
         }
+        System.out.print("distance="+feet++ +"feet"+" "+inches+"inches");
+            
     }
 }
 
@@ -20,7 +20,7 @@ public class Distance
 {
    public static void main(String[] args) 
    {
-      AddDistance ad=new AddDistance();
-      ad.displayDetails(12, 5);
+      AddDistance ad=new AddDistance();//create object
+      ad.displayDetails(12, 5);//assign values
    } 
 }

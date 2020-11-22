@@ -19,7 +19,7 @@ class Triangle
     //method for perimeter of triangle
     public double perimeter()
     {
-       double s=(a+b+c)/2;
+       double s=(a+b+c);
        return s;
     }
 }
