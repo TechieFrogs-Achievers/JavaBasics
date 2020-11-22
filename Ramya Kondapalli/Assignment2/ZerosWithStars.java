@@ -1,6 +1,7 @@
 public class ZerosWithStars {
     public static void main(String[] args) {
         int rows =3,columns=8;
+        //assign values for rows and columns
         for(int i=0;i<=rows;i++)
         {
             System.out.println();

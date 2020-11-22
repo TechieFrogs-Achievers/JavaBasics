@@ -7,9 +7,9 @@ public class AbcPattern {
         for (int i=0;i<=8;i++)
         {
           System.out.println();
-          String  s = str+ String.valueOf(c);
+          String  s = str+ String.valueOf(c); //printning the string at 'c'
           System.out.println(s +  ")");  
-          c++;
+          c++;                        //increase character
           str=s + " + ";
         }
     }

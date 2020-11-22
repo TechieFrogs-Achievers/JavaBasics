@@ -1,6 +1,7 @@
 class Triangle1{
     int a,b,c; //instance variables
-    public Triangle1(int x,int y,int z) //constructor
+    
+    public Triangle1(int x, int y, int z) // constructor
     {
         float s = (float) (0.5* x*y);
         double area = Math.sqrt((s - a) * (s - b) * (s - c));

@@ -1,26 +1,26 @@
+import java.util.Scanner;
+
 public class Average 
 {
-    float firstNumber;
-    float secondNumber;
-    float thirdNumber;
-
-    void insert(float a,float b,float c)
-    {
-        firstNumber = a;
-        secondNumber = b;
-        thirdNumber = c;
-
-    }
-
-    public void average()
+    
+    public void average(float firstNumber,float secondNumber,float thirdNumber) //method to calculate average
     {
         float average = (firstNumber+secondNumber+thirdNumber)/3;
         System.out.println(average); 
     }
      public static void main(String[] args) 
      {
-        Average av = new Average();
-        av.insert(1,2,4);
-        av.average();
+        
+        Scanner s = new Scanner(System.in);   //scanner for entering the values by the user
+        float a = s.nextFloat();
+        float b = s.nextFloat();
+        float c = s.nextFloat();
+        
+        s.close();
+
+        Average av = new Average();     //creating object
+        av.average(a,b,c);      //method calling
+        
+        
     } 
 }

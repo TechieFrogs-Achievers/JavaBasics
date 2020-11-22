@@ -9,6 +9,10 @@ public class Student
      {
         //object creation for the class student
          Student object=new Student();
+
+        // object.name='John';
+        // object.roll_no=2;
+        
          System.out.println(object.name);
          System.out.println(object.roll_no);
      }
