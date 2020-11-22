@@ -4,6 +4,14 @@ public class Triangle
     int firstSide;
     int secondSide;
     int thirdSide;
+
+    //constructor
+   /* Triangle(int firstSide,int secondSide,int thirdSide)
+    {
+      this.firstSide=firstSide;
+      this.secondSide=secondSide;
+      this.thirdSide=thirdSide;
+    }*/
     
     //method to calculate perimeter of triangle
     public int perimeter()
@@ -11,6 +19,8 @@ public class Triangle
         int perimeter=firstSide+secondSide+thirdSide;
         return perimeter;
     }
+
+    
 
     // method to claculate area of tringle
     public double area()
@@ -25,6 +35,7 @@ public class Triangle
     {
         //object for the class triangle
         Triangle triobj=new Triangle();
+       // Triangle triobj=new Triangle(3,4,5);
         
         /* triobj.firstSide=3;
            triobj.secondSide=4;
