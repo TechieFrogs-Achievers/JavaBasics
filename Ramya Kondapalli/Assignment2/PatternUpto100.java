@@ -1,6 +1,6 @@
 public class PatternUpto100 {
     public static void main(String[] args) {
-        //int number =1;
+        //loops for printing numbers from 0 to 100
         for(int i=1;i<=10;i++)
         {
             System.out.println();

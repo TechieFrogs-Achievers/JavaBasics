@@ -3,7 +3,7 @@ class Student{
     String name ;
     int roll_no;
 }
-public class ConstructorProgram1{
+public  class ConstructorProgram1{
     public static void main(String[] args) {
         Student s= new Student();
         s.name = "John";  //assigning values 
