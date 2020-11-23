@@ -1,12 +1,13 @@
+//example for else if ladder
 public class ElseIfLadder {
 
     public void findingHouse(int floors, int rooms)
     {
-        if(floors <= 2 && floors >=0)
+        if(floors <= 2 && floors >=0)           //if condition
         {
             System.out.println("The rent for house is 6000 per month");
         }
-        else if(floors <=6 && rooms >= 3 && rooms ==2 && rooms >= 4)
+        else if(floors <=6 && rooms >= 3 && rooms ==2 && rooms >= 4)        //else if condition
         {
             System.out.println("The rent for this house is 8000 per month");
         }
@@ -18,7 +19,7 @@ public class ElseIfLadder {
         {
             System.out.println("The rent for this house is 25000 per month");
         }
-        else
+        else                                                                    //else condition
         {
             System.out.println("Please give valid information");
         }
