@@ -23,10 +23,14 @@ public class ConstructorChaining1
         System.out.println(string);
     }
 
+
     public static void main(String[] hn)
      {
          //reation of object
           ConstructorChaining1 construct=new ConstructorChaining1(1,56);
      }
+
+ }
+
     
-}
+
