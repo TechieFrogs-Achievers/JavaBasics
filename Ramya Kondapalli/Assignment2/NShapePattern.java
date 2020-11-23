@@ -17,7 +17,7 @@ public class NShapePattern {
                         }
                         n++;
                 }
-               
+              
         }
 }
 
