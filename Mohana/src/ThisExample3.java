@@ -4,8 +4,13 @@ public class ThisExample3
     ThisExample3()
     {
        System.out.println( " default constructor ");
-    } 
-    ThisExample3( String name)
+    }  
+    //instance block
+    {
+        int i = 20;
+        System.out.println(" Instance block "+i); // it executes when the object creation
+    }
+     public ThisExample3( String name)
     {
         this(); //calling default constructor by using this keyword
         System.out.println(name);
