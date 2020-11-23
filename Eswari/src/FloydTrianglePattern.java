@@ -1,11 +1,13 @@
+//example for floyd triangle
 public class FloydTrianglePattern 
 {
+    //method for printing floyd triangle
     public void floydTriangle(int rows)
     {
         int k=1;
-       for(int i=1;i <= rows; i++)
+       for(int i=1;i <= rows; i++)      //loop for printing how many rows needed
        {
-           for(int j=1; j <= i; j++,k++)
+           for(int j=1; j <= i; j++,k++)    //loop for printing values
            {
                System.out.print(k +" ");
            }
@@ -13,8 +15,8 @@ public class FloydTrianglePattern
        } 
     }
     public static void main(String[] args) {
-        FloydTrianglePattern f= new FloydTrianglePattern();
-        f.floydTriangle(5);
+        FloydTrianglePattern f= new FloydTrianglePattern(); //object creation
+        f.floydTriangle(5); //method calling
     }
     
 }
