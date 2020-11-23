@@ -11,5 +11,5 @@ public class Program36 {
    }  
    System.out.println("");  
    }  
-    }    
+    }  
 }
