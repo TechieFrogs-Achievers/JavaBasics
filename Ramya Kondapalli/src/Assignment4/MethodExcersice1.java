@@ -2,6 +2,7 @@ package Assignment4;
 
 class PrintNumber
 {
+    //same methods to print different data types
     public void printn(int i){
         System.out.println("Integer data type :" + i);
     }
@@ -18,9 +19,11 @@ class PrintNumber
         System.out.println("Boolean data type :"+ b);
     }
 }
-public class DataTypes1 {
+public class MethodExcersice1 {
     public static void main(String[] args) {
     PrintNumber p = new PrintNumber();
+    //calling the methods with objects
+    //compiler checks the method according to type of data(argument)
     p.printn(5);
     p.printn(3.5f);
     p.printn('s');
