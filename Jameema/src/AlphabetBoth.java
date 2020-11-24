@@ -6,14 +6,14 @@ public class AlphabetBoth
         for(char i=65;i<=90;i++)
         {
             
-            System.out.print( i+ "  ");
+            System.out.print( i+ "  "); //printing uppercase alphabets
 
         }
         System.out.println(" \n lowercase:");
         
         for(char j=97;j<=122;j++)
         {
-            System.out.print(j+"  ");
+            System.out.print(j+"  "); //printing lowercase alphabets
         }
        
      }

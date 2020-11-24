@@ -1,3 +1,4 @@
+//example for printing diamond shape pattern
 public class DiamondShapePattern 
 {
     public void diamondPattern(int totalNoOfRows)
@@ -32,8 +33,8 @@ public class DiamondShapePattern
         }
     }
     public static void main(String[] args) {
-        DiamondShapePattern d= new DiamondShapePattern();
-        d.diamondPattern(9);
+        DiamondShapePattern d= new DiamondShapePattern();   //object creation
+        d.diamondPattern(9);   //calling method using object
     }
     
 }
