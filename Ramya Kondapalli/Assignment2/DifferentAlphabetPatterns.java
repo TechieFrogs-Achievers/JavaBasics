@@ -142,6 +142,15 @@ public class DifferentAlphabetPatterns {
                 temp = temp+5;
             }
         }*/
+        //pattern 13
+        /*for(int i=65;i<=70;i++)
+        {
+            System.out.println();
+            for(int j=65;j<=70;j++)
+            {
+                System.out.printf("%c ",j);
+            }
+        }*/
         //Pattern 15
         /*for (int i=70;i>=65;i--)
         {
@@ -206,18 +215,58 @@ public class DifferentAlphabetPatterns {
             }
         }*/
         //pattern 18
-        for (int i=65;i>=65;i--)
+        /*for (int i=65;i<=70-1;i++)
         {
             System.out.println();
-            for (int j=70;j>=i-1;j--)
+            for (int j=i;j>=65;j--)
             {
                 System.out.print(" ");
             }
-            for (int k=i;k<=i;k++)
+            for (int k=i;k<=70-1;k++)
             {
                 System.out.printf("%c ",k);
             }
+        }*/
+        /*int i,j,n=6;
+        for(i=0;i<=n-1;i++)
+        {
+            for(j=i;j>=0;j--)
+            {
+                System.out.print(" ");
+            }
+            for(j=i;j<=n-1;j++)
+            {
+                System.out.print(((char)(j+65))+ " ");
+            }
+            System.out.println();
         }
+        for(i=n-1;i>=0;i--)
+        {
+            for(j=i;j>=0;j--)
+            {
+                System.out.print(" ");
+            }
+            for(j=i;j<=n-1;j++)
+            {
+                System.out.print(((char)(j+65))+ " ");
+            }
+            System.out.println();
+        }
+    }*/
+    /*int i,j,n=6;
+    for(i=n-1;i>=0;i--)
+    {
+        for(j=i;j>=0;j--)
+        {
+            System.out.print(" ");
+        }
+        for(j=i;j<=n-1;j++)
+        {
+            System.out.print(((char)(j+65))+ " ");
+        }
+        System.out.println();
+    }*/
+
 
     }
 }
