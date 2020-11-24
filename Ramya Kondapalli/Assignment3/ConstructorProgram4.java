@@ -13,5 +13,6 @@ class Triangle1{
 public class ConstructorProgram4 {
     public static void main(String[] args) {
     Triangle1 t = new Triangle1(3,4,5); //parametrised constructor
+    t.a=8;
     }
 }

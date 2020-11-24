@@ -1,3 +1,5 @@
+//package src;
+
 public class ContinuePractice1 {
     public static void main(String[] args) {
         int i=1;
