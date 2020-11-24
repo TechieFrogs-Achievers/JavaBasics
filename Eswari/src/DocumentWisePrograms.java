@@ -76,15 +76,15 @@ public class DocumentWisePrograms
     {
         int r=(char)str;
         System.out.println(r);
-        if(r >= 65 || r <= 90 || r >= 97 || r <= 122)
+        if(r >= 65 && r <= 90 && r >= 97 && r <= 122)
         {
             System.out.println("The character is alphabet");
         }
-        else if(r >=32 || r <=47 || r >= 58 || r <= 64 || r >= 91 || r<= 96 || r >= 123 || r <= 126 )
+        else if(r >=32 && r <=47 && r >= 58 && r <= 64 && r >= 91 && r<= 96 && r >= 123 && r <= 126 )
         {
             System.out.println("The character is symbol");
         }
-        else if(r >=48 || r >= 57 )
+        else if(r >=48 && r >= 57 )
         {
             System.out.println("The character is number");
         }
@@ -193,17 +193,17 @@ public class DocumentWisePrograms
     
     public static void main(String[] args) {
         DocumentWisePrograms dwp=new DocumentWisePrograms();
-        dwp.swapProgram(3, 9);
-        dwp.swappingProgram(10, 20);
-        dwp.findingEvenOrOdd(-21);
-        dwp.checkingAlphabet('o');
-        dwp.checkIsItAlphabetOrNot('+');
-        dwp.factorial(2);
-        dwp.sumOfNaturalNumbers(5);
-        dwp.gcdProgram(4, 16);
-        dwp.displayAlphabets();
-        dwp.printPrimeNumber(10, 30);
-        dwp.armstrongNumber(15);
+        dwp.swapProgram(3, 9);          //values passed to swapping of two numbers
+        dwp.swappingProgram(10, 20);        //values passed to swapping of two numbers without using temprary variable
+        dwp.findingEvenOrOdd(-21);          //values passed to finding even number or odd number
+        dwp.checkingAlphabet('o');          //character passed to checking whether that character is alphabet or not
+        dwp.checkIsItAlphabetOrNot('9');       //character passed to checking whether that character is alphabet or not
+        dwp.factorial(2);                       //value passed for finding factorial of that number
+        dwp.sumOfNaturalNumbers(5);              //value passed to calculating sum of natural numbers
+        dwp.gcdProgram(4, 16);                      //two values passed to calculating gcd of that numbers
+        dwp.displayAlphabets();                     //calling method 
+        dwp.printPrimeNumber(10, 30);               //values passed to print prime numbers within that range 
+        dwp.armstrongNumber(15);                    //value passed to chect that value is armstrong or not
     }
     
 }
