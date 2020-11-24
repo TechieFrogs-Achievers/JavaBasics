@@ -1,3 +1,4 @@
+//example do while  loop
 public class DoWhileLoopExercise {
     
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class DoWhileLoopExercise {
             System.out.println("Hello world");
             i++;
         }
-        while(i <=5 );
+        while(i <=5 );    //checking whether condition is correct or not
       
     }
     

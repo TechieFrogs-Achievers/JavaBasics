@@ -4,10 +4,10 @@ public class Amstrong
      {
          int num=370;
          int sum=0 , temp , rem;
-         temp=num;
+         temp=num; //assiging value to the temprorary variable
          while(num>0)
          {
-             rem = num%10;
+             rem = num%10; //gives the remainder
              num=num/10;
              sum=sum+(rem*rem*rem);
              
