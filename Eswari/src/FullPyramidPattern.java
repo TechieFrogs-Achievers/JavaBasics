@@ -1,6 +1,7 @@
+//example full pyramid pattern printing
 public class FullPyramidPattern 
 {
-
+    //method creation
     public void fullPyramid(int totalNoOfRows)
     {
         for(int rows=1; rows <= totalNoOfRows; rows++)    //loop for how many are there
@@ -21,8 +22,8 @@ public class FullPyramidPattern
     }
     public static void main(String args[])
     {
-        FullPyramidPattern fp=new FullPyramidPattern();
-        fp.fullPyramid(9);
+        FullPyramidPattern fp=new FullPyramidPattern();     //object creation
+        fp.fullPyramid(9);          //method calling
     }
     
 }
