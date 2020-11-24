@@ -21,7 +21,7 @@ class Encap
         empAge = newValue;
     }
 
-    public void setEmpName(String newValue)
+    protected void setEmpName(String newValue)
     {
         empName = newValue;
     }
