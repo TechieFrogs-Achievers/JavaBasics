@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 
 //super class
 class Circle1

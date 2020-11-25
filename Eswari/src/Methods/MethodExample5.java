@@ -1,4 +1,4 @@
-package Methods;
+//package Methods;
 
 //super class for bank
 class Bank
