@@ -4,11 +4,11 @@ class PurchaseItem // parent class
     private double unitPrice;
     PurchaseItem() // constructor for parent class
     {
-    
+
        name=getName();    // intializing datatypes for parameters
        unitPrice=getUnitPrice();
     }
-    public double getPrice(int quantity) // accessor method for price
+    public double getPrice(int quantity) // accessor for getprice
     {
         return unitPrice*quantity;
     }
@@ -38,7 +38,7 @@ class WeightedItem extends PurchaseItem // child classWeightedItem
     {
        System.out.println("weight:"+weight);
     }
-   
+
 }
 class CounterItem extends PurchaseItem // child class for CounterItem
 {
@@ -46,7 +46,7 @@ class CounterItem extends PurchaseItem // child class for CounterItem
    public CounterItem(int quantity) // constructor for counetItem
     {
         this.quantity=quantity; //this constructor for quantity
-       
+
     }
     void display() // display method for display quantity
     {
@@ -61,3 +61,4 @@ public static void main(String[] args)
  ci.display(); // method calling for display
   }
 }
+
