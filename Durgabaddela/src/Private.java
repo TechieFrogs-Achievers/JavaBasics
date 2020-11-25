@@ -1,9 +1,9 @@
-package B;
+
 public class Private
 {
     private int num = 100;
 
-    //protectd method
+    //private method
 
     private void display() 
     {
@@ -11,12 +11,12 @@ public class Private
      }
 }
 
-  public  class Example  {
+ class Example {
     public static void main(String[] args) {
         Private p = new Private();
 
-        //accessing the private method
+        //calling the private method
 
-        p.display();
+        //p.display();
   }
 }
