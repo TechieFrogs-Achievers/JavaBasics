@@ -1,16 +1,21 @@
+
 public class Protected 
-{
+{    
+    //protected method
+
     protected void display()
     {
-      System.out.println("welcome");   
+      System.out.println("welcome");
     }
 }
-public class Example
+ class Example 
 {
     public static void main(String[] args)
-    {
+    {   
+        //object creation for accessing intsnce
+
        Protected obj = new Protected();
-       obj.display();
+       //obj.display();//method call
     }
 }
 

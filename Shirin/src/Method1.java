@@ -30,7 +30,7 @@ public class Method1
     
      public static void main(String[] args) 
      {
-       Method1 m = new Method1();
+       Method1 m = new Method1();// creating object 
        m.add(5,9);
        int n = m.multiplication (5,9);
        System.out.println(n);
