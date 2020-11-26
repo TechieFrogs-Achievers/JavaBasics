@@ -17,7 +17,7 @@ class Banana extends Apple{
         System.out.println(num_of_items);
     }
 }
-public class Inheritence9 {
+public class Inheritence10 {
     public static void main(String[] args) {
     Apple a = new Apple();
     Banana b = new Banana(34);

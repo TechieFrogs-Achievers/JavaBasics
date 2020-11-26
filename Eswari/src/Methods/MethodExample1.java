@@ -1,4 +1,4 @@
-package Methods;
+//package Methods;
 
 //class for printing integer and character values
 public class MethodExample1 

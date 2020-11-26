@@ -1,4 +1,4 @@
-package Methods;
+//package Methods;
 
 //class for student details printing
 class Student

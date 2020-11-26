@@ -1,4 +1,4 @@
-package Methods;
+//package Methods;
 
 //class for printing different values with taking different datatypes
 class PrintNumber
