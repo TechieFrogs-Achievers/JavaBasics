@@ -8,7 +8,7 @@ class PurchaseItem // parent class
        name=getName();    // intializing datatypes for parameters
        unitPrice=getUnitPrice();
     }
-    public double getPrice(int quantity) // accessor for getprice
+    public double getPrice(int quantity) // accessor method for price
     {
         return unitPrice*quantity;
     }
