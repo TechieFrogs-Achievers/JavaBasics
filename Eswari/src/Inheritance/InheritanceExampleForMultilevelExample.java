@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 
 //shape class
 class Shape

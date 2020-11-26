@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 
 //parent class as member
 class Member

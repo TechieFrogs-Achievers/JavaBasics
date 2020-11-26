@@ -1,4 +1,4 @@
-package Methods;
+//package Methods;
 
 //class super class
 class Degree
