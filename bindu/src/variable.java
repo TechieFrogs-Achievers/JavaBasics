@@ -5,8 +5,8 @@ public class variable {
         int s=20;
         System.out.println(s);
         System.out.println(k);
-        variable var = new variable();
-        System.out.println(var.data);
+        variable var = new variable();    //creating object using the class name
+        System.out.println(var.data);      //calling the variable
 
         
     }

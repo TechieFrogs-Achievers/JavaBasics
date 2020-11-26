@@ -1,21 +1,26 @@
- class Practice1{
-public static void main(String[] args) {
-    int rows = 5;
-
-    for(int i = rows; i >= 1; --i) {
-        for(int space = 1; space <= rows - i; ++space) {
-            System.out.print("  ");
-        }
-
-        for(int j=i; j <= 2 * i - 1; ++j) {
-            System.out.print("* ");
-        }
-
-        for(int j = 0; j < i - 1; ++j) {
-            System.out.print("* ");
-        }
-
-        System.out.println();
+class A{
+    int i,j;
+    A(){
+        System.out.println("default constructor");
     }
+} 
+class B extends A{
+    B(){
+    }
+    B(int i,int j){
+        this.i= i;
+        this.j= j;
+    }
+    void dispaly(){
+        System.out.println(i);
+        System.out.println(j);
+    }
+}
+class Practice1{
+public static void main(String[] args) {
+    B b = new B(10,20);
+    b.dispaly();
   }
 }
+
+
