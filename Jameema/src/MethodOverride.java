@@ -10,7 +10,7 @@ public class MethodOverride extends BaseClass //inherits parent class details
      public void MyMethod() //override method
      {
          super.MyMethod(); //calling parent class method
-         System.out.println("this is child class");
+         System.out.println("this is  child class");
      }
      public static void main(String[] args)
       {
