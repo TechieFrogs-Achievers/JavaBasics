@@ -1,35 +1,38 @@
-class  RectangleS
+class  RectangleS  //parent class
 {
- int len;
+ int len;        //data members
  int breadth;
- void Area()
+ void Area()  // method for parent class
  {
     System.out.println((len*breadth));
  }
- void perimter()
+ void perimter()  //method for parent class
  {
         System.out.println((2*(len+breadth)));
  }
-  public RectangleS( int l,int b)
+  public RectangleS( int l,int b) //constructor for parent class initilize with parameters
 {
-    len=l;
-    breadth=b;
+    len=l;   
+    breadth=b;   //data members
 }
-class Square extends RectangleS
+class Square extends RectangleS // child class
 {
     int side;
-    Square(int s)
+    Square(int s)  //constructor for child class
     {
-        super( s,s);
+        super( s,s); //super method to inherit side
     }
 }
 }
-class RectangleAndSquare
+class RectangleAndSquare   
 {
     public static void main(String[] args) 
     {
-        RectangleS r=new RectangleS(2,5);
-        Square s=new Square(5);
-       
+        RectangleS r=new RectangleS(2,5); //object creaction for parent class
+        r.Area(); //calling  method with object from parent class
+        r.perimter(); //calling  method with object from parent class
+        Square s=new Square(); // object creation for child class
+
+
     }
 }

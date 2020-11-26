@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 
 class Counter
 {
@@ -10,8 +10,8 @@ class Counter
     }
 }
 
-// class CounterChildClass extends Counter
-// {
+ //class CounterChildClass extends Counter
+ //{
 //     this.increment(3);
 // }
 
