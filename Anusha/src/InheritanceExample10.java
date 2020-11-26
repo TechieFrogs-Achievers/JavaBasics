@@ -11,23 +11,23 @@ public class InheritanceExample10
 }
 class Apple
 {
-    int Items;
+    int number_of_items;
     Apple(int num)  //constructor for parent class
     {
-        Items=num;
+        number_of_items=num;
     }
     void getDisplay() // method for parent class
     {
-        System.out.println("Number of items:"+Items);
+        System.out.println("Number of items:"+number_of_items);
     }
 }
 class Banana extends Apple // child class
 {
-    int numofitems; 
+    int number_of_items; 
     Banana(int n) // constructor for child class
     {
        super(n);
-       numofitems=n;
+       number_of_items=n;
     }
     void display() //method for display
     {

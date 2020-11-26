@@ -31,10 +31,14 @@ class Circle1  // parent class of circle1
        radius=r;
        color=c;
     }
-    /*Circle1(double r)
+    Circle1(double r)
     {
         radius=r;
-    }*/
+    }
+    Circle1()
+    {
+
+    }
     // accessors methods and mutators methods
         public double getRadius() 
     {
@@ -70,6 +74,13 @@ class Cylinder extends Circle1 // child class as Cylinder
     {
         super(r,c);
         height=h;
+    }
+    Cylinder(double r)
+    {
+        radius=r;
+    }
+    Cylinder()
+    {
 
     }
     // accessor and mutators methods
