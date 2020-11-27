@@ -5,7 +5,8 @@
     {    
          String name1 = "frezee";
          String colour = "black";
-         System.out.println("Name of the product is :" +name1+"  "+colour);
+         System.out.println("Name of the product is :" +name1);
+         System.out.println("Product colour is :" +colour);
 
     }
     public Products(int cost)
@@ -17,15 +18,14 @@
     {
         this(15000);
         System.out.println("the  product brand  is: "+brand);
-    }
-
-    
+    }    
 }
 public class Constructor
 {
     public static void main(String[] args)
     {
         Products p1 = new Products("Samsung");
+        
         
     }
 }
