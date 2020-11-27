@@ -1,6 +1,13 @@
  class Parent1
 {
-     private void show()        //creating  method in parent class
+    
+    public Parent1()
+    {
+        System.out.println("thi is sub class");
+    }
+    
+    
+    private void show()        //creating  method in parent class
     {
         System.out.println("This is a parent class");
     }
@@ -10,6 +17,11 @@ class child1 extends Parent1
     public void display()                   //creating a method in child class
     {
         System.out.println("This is a child class");
+    }
+
+    public child1()
+    {
+        System.out.println("THis is derived class");
     }
     
 }
