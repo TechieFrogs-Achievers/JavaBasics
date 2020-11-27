@@ -1,12 +1,13 @@
 class Degree 
 {
-     public void getDegree()
+     public void getDegree()// creating method
      {
          System.out.println(" I got Degree");
      } 
 
     
 }
+// sub class 
 class Undergraduate extends Degree
 {
     public void getDegree()
@@ -15,6 +16,7 @@ class Undergraduate extends Degree
     }
 
 }
+//sub class
 class Postgraduate extends Degree
 {
     public void getDegree()
