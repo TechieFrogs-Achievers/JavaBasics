@@ -5,7 +5,7 @@ public class Protected
       System.out.println("welcome");   
     }
 }
-public class Example
+ class Example
 {
     public static void main(String[] args)
     {
