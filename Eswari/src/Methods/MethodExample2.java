@@ -1,4 +1,4 @@
-package Methods;
+//package Methods;
 
 //class for print area of rectangle and square
 public class MethodExample2 
