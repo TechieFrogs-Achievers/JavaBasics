@@ -2,7 +2,7 @@ public class MethodOverloading
 {
     private static void display(int a) //creating method
     {
-        System.out.println("the value " + a); //printing the parameter
+        System.out.println("the value :" + a); //printing the parameter
     }
 
     private static void display(int a, int b) //method overloaded (same method name diff parameters)
