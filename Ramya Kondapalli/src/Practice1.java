@@ -1,26 +1,22 @@
-class A{
-    int i,j;
-    A(){
-        System.out.println("default constructor");
+interface Show{
+    void print();
+}
+interface Read extends Show{
+    void read();
+}
+class Ramya implements Show,Read {
+    public void print(){
+        System.out.println("print");
     }
-} 
-class B extends A{
-    B(){
-    }
-    B(int i,int j){
-        this.i= i;
-        this.j= j;
-    }
-    void dispaly(){
-        System.out.println(i);
-        System.out.println(j);
+    public void read() {
+        System.out.println("read");
     }
 }
-class Practice1{
-public static void main(String[] args) {
-    B b = new B(10,20);
-    b.dispaly();
-  }
+class Practice{
+    public static void main(String[] args) {
+        Ramya t = new Ramya();
+        t.print();
+        t.read();
+    }
 }
-
 
