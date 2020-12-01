@@ -10,7 +10,7 @@ public class InterfaceExampleProgram7
         System.out.println("Outer class method");
     }
     //inner class creation
-    public class example7 implements interfaceExample7
+    protected class example7 implements interfaceExample7
     {
         //constructor
         public example7()
