@@ -17,7 +17,7 @@ interface FastFood
         System.out.println("this is Nonveg sandwich");
     }
 }
- public class  Interface3
+ public class  Interface5
  {
     public static void main(String[] args)
      {
