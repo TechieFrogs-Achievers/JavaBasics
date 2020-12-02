@@ -1,3 +1,5 @@
+package Inheritance;
+
 class Shape
 {
     void Display() //method for shape

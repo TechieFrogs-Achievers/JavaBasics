@@ -1,4 +1,6 @@
-class PurchaseItem //parent class
+package Inheritance;
+
+class PurchaseItem // parent class
 {
     private String name; //datamembers as private
     private double unitPrice;
