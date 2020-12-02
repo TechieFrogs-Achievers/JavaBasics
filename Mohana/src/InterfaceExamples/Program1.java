@@ -3,12 +3,13 @@ package InterfaceExamples;
 interface RegularPloygon //interface
 {  
     //abstract methods
+    
     int getNumSides();
     int getSideLength();
 } 
 class EquilateralTriangle implements RegularPloygon 
 {    
-    int s1 = 4 ,len;
+    int s1 = 3 ,len;
     public EquilateralTriangle(int l) //constructor having 1 parameter 
     {
       this.len = l;
@@ -37,6 +38,8 @@ class Square implements RegularPloygon
     public int getSideLength()//implementation of abstract method
     {
         return length;
+
+
     }
 }
 
@@ -48,7 +51,10 @@ public class Program1
         System.out.println(" Equilaterial triangle has sides : "+ eq.getNumSides());
         System.out.println(" Equilaterial triangle has length : "+ eq.getSideLength());
         
-        
+        Square sc = new Square(6);
+        System.out.println("Square has length: "+sc.getSideLength());
+        System.out.println("Square has sides : "+sc.getNumSides());
+
     }
     
 }
