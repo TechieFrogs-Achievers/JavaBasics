@@ -1,3 +1,5 @@
+package Inheritance;
+
 class Banana
 {
     int no_of_items; //instance variable

@@ -1,3 +1,5 @@
+package Inheritance;
+
 class A
 {
     int i,j;

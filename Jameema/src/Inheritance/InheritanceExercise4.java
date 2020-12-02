@@ -1,3 +1,5 @@
+package Inheritance;
+
 class Rectangle1
 {
     int length ;
