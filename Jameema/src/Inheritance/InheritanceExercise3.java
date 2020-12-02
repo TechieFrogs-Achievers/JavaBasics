@@ -1,4 +1,6 @@
-class Member //parent class 
+package Inheritance;
+
+class Member // parent class
 {
     String name;
     int age;

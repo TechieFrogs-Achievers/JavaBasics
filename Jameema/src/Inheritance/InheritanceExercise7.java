@@ -1,3 +1,5 @@
+package Inheritance;
+
 class Counter
 {
     int i=3; //assiging value to variable

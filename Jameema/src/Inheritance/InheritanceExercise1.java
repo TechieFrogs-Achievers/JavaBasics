@@ -1,4 +1,6 @@
-class ParentClass //parent class
+package Inheritance;
+
+class ParentClass // parent class
 {
     public void ParentMethod() //parentclass method
     {
