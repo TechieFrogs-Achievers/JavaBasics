@@ -22,7 +22,7 @@ class Examplex
         System.out.println("Sum of three numbers="+(f1+f2+f3)); 
     }
 }
-//example of method overloading same method name and diffrent datatype and different  no of parameters
+//example of method overloading same method name and diffrent datatype and same  no of parameters
 class Example2
 {
     static void diffrence(float f1,double d1)//diffrence in float and double value
