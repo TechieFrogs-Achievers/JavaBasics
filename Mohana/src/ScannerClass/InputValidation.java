@@ -6,28 +6,26 @@ public class InputValidation
 {
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);
-        
-        //boolean stop = false;
-        while(true)
-        {   
-
         System.out.println("Enter your input");
-        if(!sc.hasNextInt())
-        {  
-            System.out.println("you entered wrong input");
-           
-          
-        }  
-        
-        else{ 
-            int n = sc.nextInt();
-            System.out.println("Entered int value " +n);
-        }  
+       Scanner sc = new Scanner(System.in);
 
-        continue;
-    
-       }
+         while(!sc.hasNextInt())//condition whether the input is int or not
+         {
+             System.out.println("Please enter valid input ");
+              sc.next();//moves to next input 
+         }
+        int num = sc.nextInt();
+        if(num <=0)//to check input is negative or positive 
+        {
+            System.out.println("entered negative number :" +num);
+
+            
+        }  
+        else{
+            System.out.println("input is positive  number : " +num);
+            
+        }
+         sc.close();
         
          
     }

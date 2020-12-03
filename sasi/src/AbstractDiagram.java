@@ -1,12 +1,12 @@
-abstract class Shape // abstract class 
+abstract class Shape5 // abstract class 
 {
     protected String color; //data members protected
     protected boolean filled;
-    public Shape() //  default constractor 
+    public Shape5() //  default constractor 
     {
 
     }
-    public Shape(String c,boolean f) //two argument constructor
+    public Shape5(String c,boolean f) //two argument constructor
     {
         color=c;
         filled=f;
@@ -15,7 +15,7 @@ abstract class Shape // abstract class
     {
         return color;
     }
-    public void  setcolor(String c) //mutor method
+    public void  setColor(String c) //mutator method
     {
        color=c;
     }
@@ -34,15 +34,19 @@ abstract class Shape // abstract class
         return color+" "+filled;
     }
 }
-class Circle1 extends Shape //parent class inherits the abstract class 
+class Circle6 extends Shape5 //parent class inherits the abstract class 
 { 
-    int radius;
+    double radius;
+    public Circle6()
+    {
 
-    public Circle1(double r) // one argument constructor  for parent class 
+    }
+
+    public Circle6(double r) // one argument constructor  for parent class 
     {
         radius=r;
     }
-    public Circle1(double r,String c,boolean f) //two argumentconstructor
+    public Circle6(double r,String c,boolean f) //two argumentconstructor
     {
         super(c,f);
         radius=r;
@@ -55,7 +59,15 @@ class Circle1 extends Shape //parent class inherits the abstract class
     {
         radius=r;
     }
+   /* public void setColor(String s)
+    {
+        color=s;
+    }*/
     public double getArea()
+    {
+        return 2*3.14*radius;
+    }
+    public double getPerimeter()
     {
         return 2*3.14*radius;
     }
@@ -64,7 +76,7 @@ class Circle1 extends Shape //parent class inherits the abstract class
         return color+" +filled+" +radius;
     }
 }
-class Rectangle3 extends Shape //child class inherits the abstract class 
+class Rectangle3 extends Shape5 //child class inherits the abstract class 
 {
     protected double width; // data members protected 
     protected double length;
@@ -104,7 +116,7 @@ public double getArea()
 {
     return (length*width);
 }
-public  double getPerimter()
+public  double getPerimeter()
 {
     return 2*(length+width);
 }
@@ -113,14 +125,14 @@ public String toString()
     return color+" "+filled+" "+width+" "+length;
 }
 }
-class Square extends Rectangle3 //grand child inherites parent classs  
+class Square1 extends Rectangle3 //grand child inherites parent classs  
 {
     protected double side;
-    public Square() //default constructor for grand child
+    public Square1() //default constructor for grand child
     {
 
     }
-    public Square(double s,String c,boolean f)
+    public Square1(double s,String c,boolean f)
     {
        // super(c,f);
         side=s;
@@ -131,12 +143,12 @@ public class AbstractDiagram
      public static void main(String[] args) 
      {
          System.out.println("....circle...");
-         Circle1 c=new Circle1(2); //object creation for child class 
-         c.setcolor("black"); //calling the method with object from child class 
+         Circle6 c=new Circle6(); //object creation for child class 
+         c.setColor("black"); //calling the method with object from child class 
          c.setFilled(true);
          c.setRadius(2.9);
          System.out.println(c.getcolor()); 
-         System.out.println(c.isFilled());
+          System.out.println(c.isFilled());
          System.out.println(c.getRadius());
          System.out.println(c.getArea());
          System.out.println(c.getPerimeter());
@@ -144,7 +156,7 @@ public class AbstractDiagram
          System.out.println("\n");
          System.out.println("....rectangle....");
          Rectangle3 re=new Rectangle3(); // object created for parent class 
-         re.setcolor("white"); // calling the method with object from parent class 
+         re.setColor("white"); // calling the method with object from parent class 
          re.setFilled(true);
          re.setLength(20);
          re.setWidth(2);
@@ -153,6 +165,6 @@ public class AbstractDiagram
          System.out.println(re.isFilled());
          System.out.println(re.getLength());
          System.out.println(re.getPerimeter());
-         //System.out.println(re.getClass());
+         System.out.println(re.toString());
      }
     }
