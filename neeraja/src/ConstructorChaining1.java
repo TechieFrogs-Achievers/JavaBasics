@@ -27,7 +27,7 @@ public class ConstructorChaining1
     public static void main(String[] hn)
      {
          //reation of object
-          ConstructorChaining1 construct=new ConstructorChaining1(1,56);
+          ConstructorChaining1 construct =new ConstructorChaining1(1,56);
      }
 
  }

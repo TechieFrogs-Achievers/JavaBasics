@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 
 //rectangle class 
 class Rectangle 

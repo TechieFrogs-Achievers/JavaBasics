@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 
 //parent class creation
 class Parent

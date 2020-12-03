@@ -1,7 +1,7 @@
 public class Vowelconsonant {
     public static void main(String[] args) {
-        char ch = 'k';
-        switch(ch)
+        char ch = 'k';   //intializing the char value
+        switch(ch)  //using switch case to print the vowels
         {
             case 'a':;
             case 'e':;
