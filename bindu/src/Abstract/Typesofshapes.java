@@ -178,7 +178,7 @@ class Square extends Rectangle   //subclass inherits the rectangle
         c.setRadius(1.0);
         System.out.println("the circle color:"+c.getColor());
         System.out.println("the circle filled:"+c.isFilled());
-        System.out.println("the circle radius:"+c.getRadius());
+        System.out.println( "the circle radius:"+c.getRadius());
         System.out.println("the circle area:"+c.getArea());
         System.out.println("the circle perimeter:"+c.getPerimeter());
         System.out.println("the objects of circle :"+c.toString());
