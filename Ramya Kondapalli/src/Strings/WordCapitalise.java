@@ -3,20 +3,22 @@ package Strings;
 import java.util.Scanner;
 
 public class WordCapitalise {
-    public static void main(String[] args)throws ArrayIndexOutOfBoundsException {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
         String str = s.nextLine();
 
-        String words[]=str.split(" ");  
+        String words[]=str.split(" ");  //split the string with spaces
 
-        String finalWord="";  
+        String finalWord="";  //empty string 
 
         for(String w:words){  
 
-        String firstLetter=w.substring(0,1);  
-        String remainingLetters=w.substring(1);  
-        finalWord+=firstLetter.toUpperCase()+remainingLetters+" ";  
+        String firstLetter=w.substring(0,1);  //making first letter capital
+
+        String remainingLetters=w.substring(1);   //extract remaining letters except firstletter
+        
+        finalWord+=firstLetter.toUpperCase()+remainingLetters+" ";  //adding both firstletter and remaining letters
     }  
         System.out.println(finalWord);
 
