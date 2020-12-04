@@ -19,5 +19,7 @@ public class ScannerClasses4 {
         }
         while(n<=0);
         System.out.println("Yeah ! It is positive number");
+    
+        s.close();
     }
 }

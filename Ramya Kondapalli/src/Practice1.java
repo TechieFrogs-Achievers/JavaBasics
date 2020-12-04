@@ -1,22 +1,16 @@
-interface Show{
-    void print();
-}
-interface Read extends Show{
-    void read();
-}
-class Ramya implements Show,Read {
-    public void print(){
-        System.out.println("print");
-    }
-    public void read() {
-        System.out.println("read");
-    }
-}
+
 class Practice{
     public static void main(String[] args) {
-        Ramya t = new Ramya();
-        t.print();
-        t.read();
+    // 
+    String s1 = "hello";
+    String s2 = "world";
+
+    System.out.println(s1.compareTo(s2));
+
+    System.out.println(s1.indexOf('l'));
+
+    //Scanner s = new Scanner(System.in);
+
     }
 }
 
