@@ -1,3 +1,5 @@
+package Methods;
+
 public class MethodExercise3
  {
      //method overloading
