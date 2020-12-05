@@ -20,8 +20,9 @@ public class Examin1 {
         }  
         System.out.println("total sum is :"+sum); */
         while(scan.hasNextInt()){
-            System.out.println(scan.nextInt());
-           // sum=sum+scan.nextInt();
+             System.out.println(scan.hasNextInt());
+             sum=sum+scan.nextInt();
+             System.out.println(sum);
        }
         //printing sum of values in a file
         
