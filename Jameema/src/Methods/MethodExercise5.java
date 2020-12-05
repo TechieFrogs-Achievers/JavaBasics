@@ -1,3 +1,5 @@
+package Methods;
+
 class Degree
 {
     public void getDegree() //creating method

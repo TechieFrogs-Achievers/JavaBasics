@@ -8,7 +8,7 @@ public class StringClass1
     Scanner sc=new Scanner(System.in);//ScannerClass
     System.out.println("Enter string:");
     String str=sc.nextLine();
-    // str.length() function to count number of 
+    // str.length() function to count number of character
     // character in given string.
     for (int i = 0; i < str.length(); i++) 
     { 
