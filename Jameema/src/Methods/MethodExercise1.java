@@ -1,3 +1,5 @@
+package Methods;
+
 class PrintNumber
 {
     //method overloading 

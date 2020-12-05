@@ -1,3 +1,5 @@
+package Methods;
+
 class A1
 {
      static void Method() //parent class method
