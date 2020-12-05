@@ -1,3 +1,5 @@
+package Methods;
+
 class Bank
 {
     public int getBalance() //creating method
