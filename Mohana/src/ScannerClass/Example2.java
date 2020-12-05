@@ -15,6 +15,7 @@ public class Example2
          }
           else{
             System.out.println("Entered wrong input");
+            obj.close();
 
           }
 
