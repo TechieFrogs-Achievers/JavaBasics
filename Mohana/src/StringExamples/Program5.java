@@ -14,6 +14,7 @@ public class Program5
         String s3 = new String("mohana");
         String s4 = new String("mohana");
         System.out.println(s3 == s4);//false
+        System.out.println(s1 == s4);//false
     }
     
 }
