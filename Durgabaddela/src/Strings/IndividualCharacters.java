@@ -13,5 +13,6 @@ public class IndividualCharacters
     {  
         System.out.print(s.charAt(i) + "  ");//print the indidual characters   
     }  
-   } 
+   sc.close();
+}
 }
