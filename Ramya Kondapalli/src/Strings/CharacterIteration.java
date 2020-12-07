@@ -46,6 +46,6 @@ public class CharacterIteration {
         for (char c: arr){
             System.out.print(c);
         }
-
+        s.close();
     }
 }
