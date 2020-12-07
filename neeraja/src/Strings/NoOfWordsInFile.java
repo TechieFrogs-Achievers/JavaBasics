@@ -11,12 +11,10 @@ public class NoOfWordsInFile {
         Scanner scan=new Scanner(new File("E:\\data.txt"));
         int count=0;
        
-        while(scan.hasNextInt()){
+        while(scan.hasNext()){
             count++;
-            // System.out.println(scan.hasNextInt());
-             //sum=sum+scan.nextInt();
-        }
-       System.out.println(count);
+         }
+       System.out.println("count is "+count);
     }
     
 }
