@@ -6,16 +6,21 @@ public class FrequencyOfCharecter {
     public static void main(String[] hb){
 
         Scanner scan=new Scanner(System.in);
-        String str=scan.nextLine();
+        String str=scan.nextLine();//neeraja
         int count=0;
 
-        for(int i=0;i<=str.length()-1;i++){
+        for(int j=0; j<=str.length()-1; j++)
+        {
+        for(int i=j+1;i<=str.length()-1;i++){
             //if(str.charAt(i)==scan.next().charAt(0))
-            if(str.charAt(i)=='f'){
-                count++;
+            if(str.charAt(j)==str.charAt(i)){
+                ++count;
             }
         }
-        System.out.println("the charecter a present "+count+"no of times");
+        System.out.println("the charecter  "+str.charAt(j) +" present "+count+" no of times");
+
+
     }
+  }
     
 }

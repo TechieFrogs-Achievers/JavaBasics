@@ -18,5 +18,6 @@ public class FrequencyOfCharacter
         }
     }
     System.out.println("the charecter e present"  +count+ "times");
+    scan.close();
 }
 }
