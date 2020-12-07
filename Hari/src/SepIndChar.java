@@ -10,6 +10,7 @@ public class SepIndChar
         {
             System.out.print(name.charAt(i) + " ");
         }
+        sc.close();
     }
 
 }
