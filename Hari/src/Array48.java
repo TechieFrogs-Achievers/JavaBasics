@@ -18,7 +18,7 @@ public class Array48
         }
         for(int i = 0; i < size; i++)
         {
-            if(array[i] == "r")
+            if(array[i].equals( "r"))
             {
                 System.out.println("Yes, array contains r");
             }
