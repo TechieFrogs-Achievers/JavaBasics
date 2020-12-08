@@ -1,38 +1,29 @@
 package StringExamples;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Program15 
 {
-
     public static void main(String[] args) 
     {
-        String words = "iam good girl";
-        char[] charArray = words.toCharArray();
-         boolean foundSpace = true;
+        Scanner sc = new Scanner(System.in);
 
-    for(int i = 0; i < charArray.length; i++) {
+        String sentence = sc.nextLine();//taking string input
+        String words[] = sentence.split(" ");//it splits the word at spaces
 
-      // if the array element is a letter
-      if(Character.isLetter(charArray[i])) {
+        String completeSentence = " "; //to print final string
 
-        // check space is present before the letter
-        if(foundSpace) {
+        for(String b : words)//for ecah loop to get words 
+        {
+          String capital = b.substring(0,1);//to capitalize first character 
+          String remainword = b.substring(1);//remaing words in this string
 
-          // change the letter into uppercase
-          charArray[i] = Character.toUpperCase(charArray[i]);
-          foundSpace = false;
+         completeSentence += capital.toUpperCase()+remainword + " ";
+        }
+
+        System.out.println(completeSentence);
+        sc.close();
         
     }
     
-}   
-else {
-    // if the new character is not character
-    foundSpace = true;
-  }
 }
-
-// convert the char array to the string
-words = String.valueOf(charArray);
-System.out.println("Message: " + words);
-    }}
