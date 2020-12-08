@@ -6,7 +6,7 @@ public class ArrayExcersice4 {
     public static void main(String[] m){
         //by taking input through stdin
         Scanner s=new Scanner(System.in);
-        int count=0;
+       // int count=0;
         int[] arr=new int[10];
         for(int i=0; i<arr.length; i++){
             arr[i]=s.nextInt();
@@ -22,6 +22,7 @@ public class ArrayExcersice4 {
             }
           }
          }
+         s.close();
 //by directly Initialize array   
         /*int [] arr = new int [] {1, 2, 3, 4, 2, 7, 8, 8, 3};   
           
