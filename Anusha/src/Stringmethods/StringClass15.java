@@ -1,23 +1,22 @@
 package Stringmethods;
-
+import java.util.*;
 public class StringClass15 
 {
     public static void main(String[] args)
     {
-       // create a string
-   String name = "anusha jakkam";
+        Scanner sc = new Scanner(System.in);//scanner class
+        System.out.println("Enter any sentence : ");
+        String string = sc.nextLine();
+        String words[] = string.split(" ");
+        String capWord = "";
+        for(String i : words )
+        {
+            String first = i.substring(0,1);
+            String remaining = i.substring(1);
+            capWord += first.toUpperCase() + remaining + " " ;  
+        }
+        System.out.println(capWord.trim());
+        sc.close();
 
-   // create two substrings from name
-   // first substring contains first letter of name
-   // second substring contains remaining letters
-   String first_Letter = name.substring(0, 1);
-   String remaining_Letters = name.substring(1, name.length());
-
-   // change the first letter to uppercase
-   first_Letter = first_Letter.toUpperCase();
-
-   // join the two substrings
-   name = first_Letter + remaining_Letters;
-   System.out.println("Name: " + name);
-   } 
+          } 
 }

@@ -18,6 +18,7 @@ public class IndexOf {
 
         // int index = Chars.indexOf(arr, s);
         // System.out.println(index);
+        sc.close();
         
     }
 }
