@@ -1,7 +1,7 @@
 package Strings;
 
 import java.util.Scanner;
-
+//program to convert upper to lower and vice versa
 public class ToUpperAndLower {
     public static void main(String[] l){
 
