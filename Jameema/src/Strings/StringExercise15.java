@@ -15,7 +15,7 @@ public class StringExercise15
         {
             words =words +  Character.toUpperCase(word[i].charAt(0)) + word[i].substring(1) +" "; //it takes everyword in the sentance first letter is uppercase
         }
-        System.out.println(words);
+        System.out.println(words );
         sc.close();
     }
     

@@ -1,7 +1,7 @@
 package Strings;
 
 import java.util.Scanner;
-
+//iterating each and every charecter in a string
 public class Frequency {
     public static void main(String[] jn){
         Scanner sc=new Scanner(System.in);

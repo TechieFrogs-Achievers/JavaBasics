@@ -1,14 +1,17 @@
 package Stringmethods;
-import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 public class StringClass3 
 {
-   public static void main(String[] args) 
-   {
-      String value="31/01/1999";
-      System.out.println("date:"+value);
-      SimpleDateFormat formatter1=new SimpleDateFormat("dd/MM/yyyy");  
-      Date date1=formatter1.parse(value);  
-      System.out.println(value+"\t"+date1);  
-   } 
+    public static void main(String[] args) 
+    {
+        Scanner scan = new Scanner(System.in);                  //scanner method
+        String date = scan.nextLine();                          //taking date as string
+        Date date1 = new SimpleDateFormat("dd/MM/yyyy").parse(date);            //creating date format
+        System.out.println(date1);                          //printing day for given date
+        scan.close();
+ 
+    }
 }
