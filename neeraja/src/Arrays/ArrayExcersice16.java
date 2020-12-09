@@ -22,6 +22,7 @@ public class ArrayExcersice16 {
          }
         }
     }
+    sc.close();
     //display the nth hight element
      System.out.println(n+" th largest element is "+k[n-1]);
 

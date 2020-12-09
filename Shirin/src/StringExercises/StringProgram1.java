@@ -10,7 +10,7 @@ public class StringProgram1
         String sentence = sc.nextLine();// data member
         int l = sentence.length();// length of the sentence
         System.out.println(l);//printing 
-        sc.close();
+        sc.close();// closing scanner class
         
     }
     

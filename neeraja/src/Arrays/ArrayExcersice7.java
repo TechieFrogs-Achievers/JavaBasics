@@ -21,7 +21,7 @@ public class ArrayExcersice7 {
                 System.out.println(arr[i]);
             }
         }
-
+     s.close();
         //elements at odd positions
         System.out.println("elements at even positions");
         for(int i=0; i<arr.length; i++){

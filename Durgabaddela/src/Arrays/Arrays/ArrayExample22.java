@@ -12,27 +12,27 @@ public class ArrayExample22
             System.out.print(k+" ");
         }
         System.out.println();
-        System.out.println("the odd elements are");
+        System.out.println("the even elements are");
         for(int i=0; i<a.length; i++)
         {
             
-            if(a[i]%2!=0)//condition for even  digits
+            if(a[i]%2==0)//condition for even  digits
             {
                 System.out.print(a[i]+" ");
                 
             }
         }
         System.out.println();
-        System.out.println("the even elements are");
+        System.out.println("the odd elements are");
         for(int i=0; i<a.length; i++)
         {
              
-            if(a[i]%2==0)
+            if(a[i]%2!=0)//checking for odd elements
             {
                 
-                System.out.print(a[i]+" ");
+                System.out.println(a[i]+" ");
             }
-            System.out.println();
+            //System.out.println();
         }
     }
 
