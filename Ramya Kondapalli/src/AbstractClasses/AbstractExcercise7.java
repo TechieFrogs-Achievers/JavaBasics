@@ -1,5 +1,5 @@
 package AbstractClasses;
-abstract class Shape{
+abstract class Shape1{
     protected String color;
     protected boolean filled;
     

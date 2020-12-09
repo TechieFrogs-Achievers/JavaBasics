@@ -1,4 +1,5 @@
 package Abstract;
+import Interface.Example3;
 
 abstract class Animals 
 {
@@ -34,6 +35,11 @@ class Dogs extends Animals
         Animals a1 = new Dogs();
         a1.dogs();
         //System.out.println("Dogs:"+a1.Dogs());
+        Example3 e = new Example3(); //creating the object for the import package(interface)
+        e.sample();
+        e.input();   //calling the object 
+        e.display();
+
     }
 
 }
