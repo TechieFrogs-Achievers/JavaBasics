@@ -7,13 +7,27 @@ public class ArrayExcersice1 {
         int[] a;//declaring new array
         a=b;//assigning one array to another
 
+
         // printing the array elemnts using foreach loops
+        System.out.print("array b[] is");
         for(int d:b){
-            System.out.println("array b[] "+d);
+            System.out.print(d+" ");
         }
+        System.out.println();
+
+        System.out.println("array a[] is");
         for(int c:a){
-        System.out.println("array a[] "+c);
+        System.out.print(c+" ");
     }
+        System.out.println();
+
+
+    //using while loop
+    int i=0;
+    do{
+        System.out.print(a[i]+" ");
+        i++;
+    } while(i<=a.length-1);
 }
     
 }
