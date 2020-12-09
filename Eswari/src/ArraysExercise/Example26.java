@@ -2,8 +2,8 @@ package ArraysExercise;
 
 import java.util.Scanner;
 
-//class to print addition of two matrices
-public class Example36
+//class to print subtraction of two matrices
+public class Example26 
 {
     public static void main(String[] args) 
     {
@@ -13,7 +13,7 @@ public class Example36
         //creating 2-demensional array(i.e matrix )
         int matrix1[][] = new int[rows][columns];           
         int matrix2[][] = new int[rows][columns];
-        int addition[][] = new int[rows][columns];
+        int subtraction[][] = new int[rows][columns];
 
         //loops for taking matrix1 elements
         System.out.println("Enter the Matrix1 elements are : ");
@@ -24,7 +24,6 @@ public class Example36
             {
                 //reading matrix1 elements
                 matrix1[i][j] = scan.nextInt();
-                // matrix2[i][j] = scan.nextInt();
             }
         }
         //loops for taking matrix2 elements
@@ -38,28 +37,29 @@ public class Example36
                 matrix2[i][j] = scan.nextInt();
             }
         }
-        //loops for add the  two matrices
+        //loops for subtract the  two matrices
         for(int i= 0; i < rows; i++)
         {
             for(int j = 0; j < columns; j++)
             {
-                //addition of two matrices
-                addition[i][j] = matrix1[i][j] + matrix2[i][j];
+                //subtraction of two matrices
+                subtraction[i][j] = matrix1[i][j] - matrix2[i][j];
             }
         }
 
-        //loops for printing result of addition
-        System.out.println("Addition of two matrices is :");
+        //loops for printing result of subtraction
+        System.out.println("Subtraction of two matrices is :");
         for(int i = 0; i < rows; i++)
         {
             for(int j= 0; j < columns; j++)
             {
                 //printing result
-                System.out.print(addition[i][j] +"\t");
+                System.out.print(subtraction[i][j] +"  ");
                 
             }
             System.out.println();
         }
         scan.close();           //scanner close
     }
+    
 }
