@@ -13,11 +13,11 @@ public class ValidationForInt2
          while(!sc.hasNextInt())//checking for giving input is int or not
 
          {
-             System.out.println("this is not a valid integer ,try again");
+             System.out.println("this is not an integer ,try again" +sc.hasNextInt());
               sc.next();//moves to the next token 
          }
         int number = sc.nextInt();
-         System.out.println("the integer number is ="+number);
+         System.out.println(" integer number is ="+number);
          sc.close();
     }
 

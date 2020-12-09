@@ -12,11 +12,12 @@ public class ValidationForInteger
        if(sc.hasNextInt())//checking for giving input is int or not
        {
        int num = sc.nextInt();
-           if(num>0)//condition checking for giving value is positive number or not
+           if(num>0)// checking for giving value is positive number or not
            {
                System.out.println("numer is positive integer ="+num);
            }
-           else{
+           else
+           {
                System.out.println("number is negative integer ="+num);
            }
        }
