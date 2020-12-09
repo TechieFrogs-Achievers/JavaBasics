@@ -1,3 +1,5 @@
+import java.util.regex.Matcher;
+
 public class Pattern {
     public static void main(String[] args) {
         for(int i=1;i<=5;i++)
@@ -12,5 +14,17 @@ public class Pattern {
                 }
         }
     }
+
+	public static Pattern compile(String string) {
+		return null;
+	}
+
+	public Matcher matcher(String string) {
+		return null;
+	}
+
+	public static boolean matches(String string, String string2) {
+		return false;
+	}
 }
 
