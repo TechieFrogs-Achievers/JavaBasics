@@ -20,5 +20,5 @@ public class Arrays1 {
     int[] arr = {22,76,65,43,12};  //array decalration 
     
     display(arr);  //method calling by passing array
-}
+    }
 }
