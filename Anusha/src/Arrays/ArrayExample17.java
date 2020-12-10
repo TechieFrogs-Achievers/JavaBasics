@@ -1,6 +1,6 @@
 package Arrays;
 import java.util.*;
-public class ArrayExample18 
+public class ArrayExample17 
 {
     public static void main(String[] args)
     {
@@ -10,19 +10,12 @@ public class ArrayExample18
     int []arr1 = new int[size];
     System.out.println("Enter the elements:");
     for (int i = 0; i < size; i++)//print the elements
-     {  
+    {  
         arr1[i] = sc.nextInt();            
      }  
-     int max=arr1[0];//initialize max with first element of array
-     for(int i=0;i<arr1.length;i++)
-     {
-         //compare elements in the array
-         if(arr1[i]>max)
-         { 
-           max=arr1[i];
-          }
-     }
-     System.out.println("Largest element present is: "+max);
-     
+     Arrays.sort(arr1);//sort the elements
+     System.out.println("sorted array: "+Arrays.toString(arr1));
+     int max=arr1[size-2];//find 2rd largest element in the array
+     System.out.println("2rd largest element in the array: "+max);
     }
 }
