@@ -15,10 +15,10 @@ public class StringProgram15
          String w1 ="";// storing  string
          for ( int i = 0; i < word.length; i++)
          {
-             w1 =  w1 + Character.toUpperCase(word[i].charAt(0)) + word[i].substring(1)+ " "; 
+             w1 =  w1 + Character.toUpperCase(word[i].charAt(0)) + word[i].substring(1)+ " "; // the first character of the string convert into uppercase 
          }
          System.out.println(w1);// printing
-         sc.close();
+         sc.close();// closing scanner class
         
     }
     

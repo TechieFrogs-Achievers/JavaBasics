@@ -7,10 +7,10 @@ public class Student1
 
   public Student1(String name, int rollNumber, long phoneNumber, String address)
   {
-       name = name;
-       rollNumber = rollNumber;
-      phoneNumber = phoneNumber;
-      address = address;
+       this.name = name;
+       this.rollNumber = rollNumber;
+      this.phoneNumber = phoneNumber;
+      this.address = address;
       System.out.println("name  " +" "  +rollNumber+" "  +phoneNumber +  " address" );
 
   }

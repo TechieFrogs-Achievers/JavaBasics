@@ -13,7 +13,7 @@ public class StringReverce
         sb.append(str);// appending str string
         sb.reverse();// it reverse both strings
         System.out.println(sb);
-        sc.close();
+        sc.close();// closing scanner class
         
     }
 

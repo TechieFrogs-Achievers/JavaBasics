@@ -11,7 +11,7 @@ public class StringCount2
         String str1 = "shirin";// data type
         String str2 = sc.nextLine();
         int count = 0;
-        for(int i =0; i < str2.length();i++)
+        for(int i =0; i < str2.length();i++)// loop checks  second string 
         {
             if(str2.charAt(i)!=' ')// it checks every character except space
             {

@@ -8,12 +8,11 @@ public class StringProgram6
     {
         Scanner sc = new Scanner(System.in);// creating method
         System.out.println(" Enter the first name ");// entering name
-         String str = sc.nextLine();
+         String str = sc.nextLine();// data type for first string
         System.out.println("Enter the seconf name ");
          String str1 = sc.nextLine();
-         System.out.println(str.equals(str1));// true
-        //System.out.println(str.equalsIgnoreCase(str1));//it ignore uppercase  & lowercase 
-         sc.close();
+         System.out.println(str.equals(str1));// true 
+         sc.close();// closing scanner class
 
 
 
