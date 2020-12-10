@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class StringExample7 
+public class ArrayExample7 
 {
     public static void main(String[] args) 
     {

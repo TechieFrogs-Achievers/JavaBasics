@@ -19,19 +19,19 @@ public class ArrayProgram17
             for(int j =i+1; j < secondlargest.length; j++)// loop for checking the second element
             {
 
-                if(secondlargest[i] < secondlargest[j])// checking array 1 element is lessthan  array2 
+                if(secondlargest[i] > secondlargest[j])// checking array 1 element is lessthan  array2 
                 {
                     int temp;// temp  variable for storing the data elements
                     // sorting the elements
                     temp = secondlargest[i];
                     secondlargest[i] = secondlargest[j];
-                    secondlargest[i] =temp;
+                    secondlargest[j] =temp;
 
                 }
             }
         }
 
-         System.out.println(" The  second  largest element :" + secondlargest[1]);// printing  the  second largest element in array
+         System.out.println(" The  second  largest element :" + secondlargest[secondlargest.length-2]);// printing  the  second largest element in array
          sc.close();//  closing scanner class
         
         
