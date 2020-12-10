@@ -12,11 +12,11 @@ public class StringProgram3 {
         Scanner sc = new Scanner(System.in);// creating  object
         String str = sc.nextLine();// data type
         String str1 = sc.nextLine();
-        Date dobj =  new SimpleDateFormat("yyyy-MM-dd").parse(str);
-        Date d1 =  new SimpleDateFormat("dd/MM/yyyy").parse(str1);
-        System.out.println(str + "\t" +dobj);
+        Date dobj =  new SimpleDateFormat("yyyy-MM-dd").parse(str);// condition for displaying data
+        Date d1 =  new SimpleDateFormat("dd/MM/yyyy").parse(str1);// another way for displaying data
+        System.out.println(str + "\t" +dobj);// printing
         System.out.println(str1 + "\t" + d1);
-        sc.close();
+        sc.close();// closing scanner class
         
         
     }

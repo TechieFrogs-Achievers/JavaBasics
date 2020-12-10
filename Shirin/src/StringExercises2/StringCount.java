@@ -10,7 +10,7 @@ public class StringCount
         Scanner sc = new Scanner(System.in);//scanner class
         String str = sc.next();// data type
         int count = 0;
-        for(int i =0; i < str.length();i++)
+        for(int i =0; i < str.length();i++)// loop  checks the string 
         {
             if(str.charAt(i)!=' ')// it checks every character except space
             {
@@ -19,7 +19,7 @@ public class StringCount
         }
             System.out.println("the number of characters :" +count);// printing
         
-        sc.close();
+        sc.close();// closing scanner class
         
     }
     

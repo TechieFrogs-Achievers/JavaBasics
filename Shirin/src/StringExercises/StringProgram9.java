@@ -40,7 +40,7 @@ public class StringProgram9
         {
             System.out.println(str1 +" "+ "and" + str2 +" "+ "are not anagrams"); 
         }
-        sc.close();
+        sc.close();// closing scanneer class
             
     }
     
