@@ -15,7 +15,7 @@ public class ArrayProgram8
         {
             array[i] = sc.nextInt();//reading the elements
         }
-        for(int  i = 0; i <array.length ; i = i+2)// loop for checking  odd number
+        for(int  i = 0; i <array.length ; i = i+2)// loop for checking  odd position elemenet in array
         {
             System.out.println(" The odd number :" +array[i]);
         }
