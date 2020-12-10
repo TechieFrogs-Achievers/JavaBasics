@@ -10,7 +10,7 @@ public class ArraysEx34
        for(int i = 0 ; i < 3 ; i++)
        {
         
-         for(int j = 0 ; j < 2; j++)
+        for(int j = 0 ; j < 2; j++)
         {
            
             sum = sum+arr[i][j];    
@@ -28,12 +28,14 @@ public class ArraysEx34
         
          for(int j = 0 ; j < 2; j++)
         {
-           
-            sum = sum+arr[j][i];    
+         
+          sum = sum+arr[j][i]; 
+         
         }  
         
-        System.out.println("The sum of "+(i+1)+"coloumn is"+sum);
-          sum = 0;
+        
+        System.out.println("The sum of "+(i+1)+"coloumn is"+sum);  
+        sum = 0; 
         } 
 
 

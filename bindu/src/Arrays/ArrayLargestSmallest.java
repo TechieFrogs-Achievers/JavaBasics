@@ -16,7 +16,7 @@ public class ArrayLargestSmallest
         }     
         for(int i=0;i<arr.length;i++)   //checks the condition and prints the array length and position 
         {  
-            for(int j=0;j<arr.length;j++)
+            for(int j=i+1;j<arr.length;j++)
             {
                 if(arr[i]>arr[j])   //if array1 greater than array2 then the swapping starts
                 {
