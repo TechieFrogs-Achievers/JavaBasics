@@ -15,7 +15,7 @@ public class ArrayProgram7
         {
             array[i] = sc.nextInt();// reading  elements
         }
-        for(int  i = 1; i <array.length ; i = i+2)// loop for checking  even number  with given elements
+        for(int  i = 1; i <array.length ; i = i+2)// loop for checking  even position element
         {
             System.out.println(" The even number :" +array[i]);
         }

@@ -17,7 +17,7 @@ public class ArrayProgram9
         int largenum=array[0];// taking large element
         for(int i =0; i < array.length; i++)
         {
-            if(largenum > array[i])// checking large element with another element
+            if(array[i] > largenum)// checking large element with another element
             {
                 largenum = array[i];
 
