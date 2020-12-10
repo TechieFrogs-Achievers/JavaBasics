@@ -7,7 +7,7 @@ public class ArrayExcersice21 {
      Scanner sc=new Scanner(System.in);
         int e[];
         e=new int[7];
-        
+        sc.close();
         //initializing array
         for(int i=0; i<e.length; i++){
             e[i]=sc.nextInt();

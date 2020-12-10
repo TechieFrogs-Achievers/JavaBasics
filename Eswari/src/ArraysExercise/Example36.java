@@ -24,6 +24,7 @@ public class Example36
             {
                 //reading matrix1 elements
                 matrix1[i][j] = scan.nextInt();
+                // matrix2[i][j] = scan.nextInt();
             }
         }
         //loops for taking matrix2 elements
