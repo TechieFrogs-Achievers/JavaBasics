@@ -21,7 +21,7 @@ public class ArrayExcersice17 {
     }
      System.out.println(n+" th largest element is "+k[n-1]);
 
-    
+    sc.close();
 }
     
 }
