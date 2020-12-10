@@ -15,9 +15,9 @@ public class ArrayProgram6
     {
         array[i] = sc.nextInt();// elements read
     }
-    for(int  i = array.length-1; i >= 0 ; i-- )// loop for reverse the every element
+    for(int  i = array.length-1; i >= 0 ; i-- )// loop for reverse the  elements in array
     {
-        System.out.println(" The reverse order :" +array[i]);// printing  the elements reverse
+        System.out.println(" The reverse order :" +array[i]);// printing  the  reverse elements
     }
 
     sc.close();// closing scanner class

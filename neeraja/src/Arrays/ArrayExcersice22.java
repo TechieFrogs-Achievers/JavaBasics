@@ -12,6 +12,7 @@ public class ArrayExcersice22 {
            for(int i=0; i<e.length; i++){
                e[i]=sc.nextInt();
            }
+           sc.close();
            //array before elimination
            System.out.print("given array");
            for(int l=0; l<e.length; l++){
