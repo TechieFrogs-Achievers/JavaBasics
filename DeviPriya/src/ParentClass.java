@@ -5,7 +5,7 @@ class Method4{
     }
          
  }
-   class Method5 extends Method4
+   class Method5 extends Method4Array
  {
    void  child()
      {
@@ -16,7 +16,7 @@ class Method4{
    {
  public static void main(String args[])
   {
-     Method4 m4= new Method4(); //parent class object creation
+     Method4Array m4= new Method4Array(); //parent class object creation
 
      Method5 m5= new Method5();//child class object creation
 
