@@ -29,6 +29,7 @@ public class Array14ascending
                 }  
             System.out.print(arr[i]+" ");
                 }
+                sc.close();
         }
     }
 

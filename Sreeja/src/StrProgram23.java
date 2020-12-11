@@ -1,5 +1,5 @@
 import java.util.*;
-public class StringsEx23
+public class StrProgram23
  {
     public static void main(String[] args) 
     {
