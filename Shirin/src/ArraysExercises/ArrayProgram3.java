@@ -16,10 +16,12 @@ public class ArrayProgram3
         {
             arr[i] = sc.nextInt();   //reads the elements
         }
+            System.out.println("Enter position number :");
             int position =sc.nextInt();   //position to the number of elements
 
         int temp;  // temporary variables
-        for(int i=0;i<arr.length;i++)
+        
+        for(int i=0;i < position;i++)
         {
             temp = arr[0];  //assigns the value to the 1st array element
             
