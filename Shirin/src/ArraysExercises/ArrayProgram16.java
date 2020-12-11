@@ -19,13 +19,13 @@ public class ArrayProgram16
             for(int j =i+1; j < largestarr.length; j++)// loop for checking the second element
             {
 
-                if(largestarr[i] < largestarr[j])// checking array 1 element is lessthan  array2 
+                if(largestarr[i] > largestarr[j])// checking array 1 element is lessthan  array2 
                 {
                     int temp;// temp  variable for storing the data elements
                     // sorting the elements
                     temp = largestarr[i];
                     largestarr[i] = largestarr[j];
-                    largestarr[i] =temp;
+                    largestarr[j] =temp;
 
                 }
             }
