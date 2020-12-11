@@ -17,7 +17,7 @@ public class StringProgram12
          //System.out.println(" clear the entire string : " + sb);// it display the string based on the length
          sb = new StringBuffer();
          System.out.println(sb);// it deletes entire string 
-         sc.close();
+         sc.close();// closing scanner class
         
         
         

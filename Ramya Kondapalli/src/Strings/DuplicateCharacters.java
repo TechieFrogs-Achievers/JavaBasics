@@ -4,6 +4,7 @@ public class DuplicateCharacters {
     public static void main(String[] args) {
 
         String s = "Ramya Kondapalli";
+        System.out.println(s.split(" ", s.length()));
         
         //for loops for checking duplicate characters
         for (int i=0;i<s.length();i++){  

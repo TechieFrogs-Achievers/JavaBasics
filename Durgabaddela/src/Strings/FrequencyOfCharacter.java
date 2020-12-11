@@ -12,10 +12,14 @@ public class FrequencyOfCharacter
 
     for(int i=0;i<=str.length()-1;i++)
     {
-        if(str.charAt(i)=='e')
+        for(int j=i+1; j<=str.length()-1; j++)
+        {
+            
+        }
+        /*if(str.charAt(i)=='e')
         {
             count++;
-        }
+        }*/
     }
     System.out.println("the charecter e present"  +count+ "times");
     scan.close();

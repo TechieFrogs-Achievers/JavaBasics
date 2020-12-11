@@ -11,7 +11,8 @@ public class StringPuntuations
         String str = sc.nextLine();
         int count = 0;
         for(int i= 0; i < str.length(); i++)
-        {
+        {    
+            // it checks these puntuations in string and it give count
             if(str.charAt(i)=='?'||str.charAt(i)==','||str.charAt(i)==';'||str.charAt(i)=='!'||str.charAt(i)=='@'||str.charAt(i)=='*'||str.charAt(i)=='.')//puntuations
             {
                 count++;
@@ -20,7 +21,7 @@ public class StringPuntuations
             
         }
         System.out.println(" the number of puntuations : " + count);
-        sc.close();
+        sc.close();// closing scanner class
         
     }
     
