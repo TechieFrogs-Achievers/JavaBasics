@@ -18,6 +18,7 @@ public class ConstructorProgram8 {
         int c = s.nextInt();
         Average avg = new Average(); //object creation
         avg.calculate(a,b,c); //method calling
+        s.close();
 
     }
 }

@@ -5,7 +5,7 @@ public class RightRotation {
         
         int[] arr = new int[]{1,2,3,4,5};
 
-        int n = 1; //variable for defining rotations 
+        int n = 3; //variable for defining rotations 
 
         System.out.println("Before rotation");
         for (int i=0;i<arr.length;i++){
