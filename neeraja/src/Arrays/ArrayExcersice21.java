@@ -8,14 +8,16 @@ public class ArrayExcersice21 {
         int e[];
         e=new int[7];
         
+        System.out.println("enter array  elemets");
         //initializing array
         for(int i=0; i<e.length; i++){
             e[i]=sc.nextInt();
         }
+        sc.close();
         //array before elimination
         System.out.print("before elimination of array");
         for(int l=0; l<e.length; l++){
-            System.out.print(e[l]);
+            System.out.print(e[l]+" ");
         }
         //eliminating duplicates 
         for(int i=0; i<e.length; i++){
@@ -26,11 +28,14 @@ public class ArrayExcersice21 {
                 }
             }
         }
+        System.out.print("after elimination of array");
         //display array after removing duplicates
         for(int i=0; i<e.length;i++){
-            if(e[i]==0){}
+            if(e[i]==0){
+                continue;
+            }
             else{
-                System.out.println(e[i]);
+                System.out.print(e[i]+" ");
             }
         }
     }

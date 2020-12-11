@@ -23,5 +23,6 @@ public class ConstructorProgram6 {
         Area r = new Area();
         r.setDim(a,b); //passing parameters
         System.out.println("Area of Reactangle : " +  r.getArea());
+        s.close();
     }
 }
