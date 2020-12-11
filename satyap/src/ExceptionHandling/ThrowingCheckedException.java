@@ -1,16 +1,16 @@
-package ExceptionHandling;
+package ExceptionHandling; //package
 //import java.util.*;
-public class ThrowingCheckedException 
+public class ThrowingCheckedException  //class for Throwing checked exception
 {
     public static void main(String[] args) 
     {
         //Scanner sc=new Scanner(System.in);
-        try{
-            throw new Exception("Throwing Exception");
+        try{ //try block
+            throw new Exception("Throwing Exception");//throw notation
         }
-        catch(Exception e)
+        catch(Exception e) //catch block for the exception
         {
-           System.out.println(e.getMessage());
+           System.out.println(e.getMessage()); //prints the type of exception
         
         }
 
