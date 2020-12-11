@@ -8,7 +8,7 @@ public class ArrayExample18
     System.out.println("Enter size of array : ");
     int size = sc.nextInt();
     int []arr1 = new int[size];
-    System.out.println("Enter the elements:"); 
+    System.out.println("Enter the elements:");
     for (int i = 0; i < size; i++)//print the elements
      {  
         arr1[i] = sc.nextInt();            
@@ -18,8 +18,11 @@ public class ArrayExample18
      {
          //compare elements in the array
          if(arr1[i]>max)
-         max=arr1[i];
+         { 
+           max=arr1[i];
+          }
      }
      System.out.println("Largest element present is: "+max);
+     
     }
 }

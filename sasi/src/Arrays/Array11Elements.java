@@ -18,6 +18,7 @@ public class Array11Elements
        // {
            // count+=arr[i];
             System.out.print(arr.length+" ");
-        }
+            sc.close();
 
+        }
     }

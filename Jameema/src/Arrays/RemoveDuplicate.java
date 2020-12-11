@@ -13,17 +13,28 @@ public class RemoveDuplicate
         {
             val[i]=sc.nextInt();
         }
-        for(int i=0;i<val.length;i++) //check the condition
+        for(int i=0;i<length;i++) //check the condition
         {
-            for(int j=i+1;j<val.length;j++)
+            for(int j=i+1;j<length;j++)
             {
-                if(val[i]!=val[j]) //true
+                if(val[i]==val[j]) //index of i isequal to indexof j
                 {
-                    System.out.println("the duplicate values are:" +val[i]); //print the result
+                    for(int k=j;k<length-1;k++)
+                    {
+                        val[k]=val[k+1]; //replace the value
+                       
+                    }
+                    length=length-1;      //remove tle length
                 }
             }
 
         }
+        System.out.println("after removing the duplicate values are:" ); 
+        for(int i=0;i<length;i++)
+        {
+            System.out.println(val[i]); //prints the result
+        }
+        sc.close();
 
         
     }

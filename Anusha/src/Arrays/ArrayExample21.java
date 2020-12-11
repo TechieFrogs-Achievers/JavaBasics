@@ -14,7 +14,7 @@ public class ArrayExample21
         arr1[i] = sc.nextInt();             
      } 
      System.out.println("Duplicate elements in given array:"); 
-     //searches for duplicate elents
+     //searches for duplicate elements
      for( int i=0;i< arr1.length;i++)
      {
          for(int j=i+1;j<arr1.length;j++)
