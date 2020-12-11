@@ -22,5 +22,6 @@ public class ConstructorProgram7 {
         Area1 r = new Area1(l,b);  //parametrised constructor
         System.out.println("Area of Reactangle : "+ r.returnArea());
 
+        s.close();
     }
 }
