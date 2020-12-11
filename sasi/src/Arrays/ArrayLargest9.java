@@ -32,6 +32,7 @@ public class ArrayLargest9
             
         }
                 System.out.println("maximum array:"+max);
+                sc.close();
         }
     }
 

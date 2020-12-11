@@ -18,5 +18,6 @@ public class ArrayRevse6
         {
             System.out.println(arr[i]);
         }
+        sc.close();
     }
 }

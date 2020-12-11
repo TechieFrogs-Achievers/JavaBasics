@@ -22,5 +22,6 @@ public class Arraymin10
             }
         }
                 System.out.println("minimum array:"+min);
+                sc.close();
     }
 }
