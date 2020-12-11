@@ -6,9 +6,9 @@ public class String23Charcterindividual
 {
     public static void main(String[] args) 
     {
-    Scanner sc=new Scanner(System.in);
-    String s=sc.nextLine();
-    for(char c:s.toCharArray())
+    Scanner sc=new Scanner(System.in); //input
+    String s=sc.nextLine(); // read  arr
+    for(char c:s.toCharArray()) //charstores into arr
     {
         System.out.println(c+" ");
     }
