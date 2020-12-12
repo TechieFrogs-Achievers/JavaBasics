@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class ArrayProgram42 
 {
-    //...... using multi dimensional array....//
+    
     public static void main(String[] args) 
-    {
+    {    
+        //...... using multi dimensional array....//
         System.out.println("Enter the length :");
         Scanner sc = new Scanner(System.in);  //scanner class
         int rows = sc.nextInt();    // taking row elements
