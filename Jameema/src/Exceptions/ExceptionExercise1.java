@@ -2,7 +2,7 @@ package Exceptions;
 
 import java.util.Scanner;
 
-public class ExceptionExample1 
+public class ExceptionExercise1 
 {
     public static void main(String[] args) 
     {
