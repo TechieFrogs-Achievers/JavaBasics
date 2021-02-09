@@ -1,15 +1,15 @@
-package Exceptions;
+package ExceptionHandling;
 
 import java.util.Scanner;
 
-public class ExceptionExample6 
+public class Exception24 
 {
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);   //scanner
-        String str = sc.nextLine();   //input values
+        Scanner sc = new Scanner(System.in);   //scanner class object
+        String str = sc.nextLine();   //string creation
         int length = sc.nextInt();
-        int arr[]= new int[length];    
+        int arr[]= new int[length];    // initializing the array to store the data
         for(int i=0;i<length;i++)
         {
             arr[i] = sc.nextInt();    //reads the array elements
@@ -35,9 +35,13 @@ public class ExceptionExample6
     {
         System.out.println("exception is:"+p);      //outer block
     }
+    finally
+    {
+        System.out.println("final block will be excuted if exception occured or not:");
+    }
     System.out.println("rest of the code:");   //prints the end 
-    sc.close();   
+    sc.close();    //scanner close
 }
 
-}
     
+}

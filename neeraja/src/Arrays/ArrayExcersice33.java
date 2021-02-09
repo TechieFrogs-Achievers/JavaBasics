@@ -20,10 +20,8 @@ public class ArrayExcersice33 {
         }
         //initializing  second array from keyboard
         System.out.println("enter elements of second array : ");
-         for(int i = 0; i <3 ; i++)
-         {
-             for(int j = 0; j<3 ; j++)
-             {
+         for(int i = 0; i <3 ; i++){
+             for(int j = 0; j<3 ; j++) {
                  arr2[i][j] =sc.nextInt();
              }
          }

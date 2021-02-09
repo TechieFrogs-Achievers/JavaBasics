@@ -14,7 +14,7 @@ public class SubstringUsingContains {
 
         subString = subString.toLowerCase();
 
-        System.out.println(str.contains(subString)); //if string contains substring it returs true
+        //System.out.println(str.contains(subString)); //if string contains substring it returs true
         
     }
 }

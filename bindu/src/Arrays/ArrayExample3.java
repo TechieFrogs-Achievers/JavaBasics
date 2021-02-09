@@ -19,7 +19,7 @@ public class ArrayExample3
             int position =sc.nextInt();   //position to the number of elements
 
         int temp;  //takes the temporary variables
-        for(int i=0;i<arr.length;i++)
+        for(int i=0;i<position;i++)
         {
             temp = arr[0];  //assigns the value to the 1st array element
             
