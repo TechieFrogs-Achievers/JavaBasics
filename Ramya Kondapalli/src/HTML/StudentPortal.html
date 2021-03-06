@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Portal</title>
+        <h1 style="text-align: center;">ISTS Student Portal</form></h1>
+    </head>
+    <body style="background-color: rgb(166, 166, 223);">
+        <h1 style="font-size: 25px"> <b>Student Registration form</b> </h1>
+
+         <form action="/action_page.php" target="_blank">
+             <!--Entering First and Last name-->
+             <label for="First name">First Name &nbsp; </label>
+             <input type="text" id="First name" name="First name" required><br><br>
+             <label for="Last name">Last Name &nbsp; </label>
+             <input type="text" id="Last Name" name="Last Name"><br><br>
+
+            <!--Entering Email and Password-->
+             <label for="Email id">Email Id &nbsp;&nbsp;&nbsp;&nbsp;</label>
+             <input type="text" id="Email id" name="Email id" placeholder="xxxxx@gmail.com"><br><br>
+             <label for="password"> Password &nbsp;&nbsp;</label>
+             <input type="password" id="password" name="password" placeholder="must include 8 characters" ><br><br>
+             <label for="Re-Enter password"> Re-Enter Password &nbsp;</label>
+             <input type="password" name="password" id="password" placeholder="Re-enter above password"><br><br>
+
+             <!--Entering Date of Birth -->
+             <label for="DOB"> Date of Birth &nbsp;</label>
+             <input type="date" name="date" id="date"><br><br>
+
+             <!--Selecting gender using radio buttons-->
+             Gender <br>
+             <input type="radio" id="Male" name="Gender" value="Male">
+             <label for="Male">Male</label><br>
+             <input type="radio" id="Female" name="Gender" value="Female">
+             <label for="Female">Female</label><br>
+             <input type="radio" id="Others" name="Gender" value="Others">
+             <label for="Others">Others</label><br><br>
+
+             Specialisation 
+
+             <label for="Branch"></label>
+             <select name="Branch" id="Branch">
+
+             <option value="ECE">ECE</option>
+             <option value="CSE">CSe</option>
+             <option value="AGRI">AGRI</option>
+             <option value="EEE">EEE</option>
+             <option value="IT">IT</option>
+
+             </select><br><br>
+
+            <!--Checkbox element-->
+             Skills <br>
+            
+            <input type="checkbox" id="C" >
+            <label for="C">C</label><br>
+            <input type="checkbox" id="C#" >
+            <label for="C#">C#</label><br>
+            <input type="checkbox" id="Java">
+            <label for="Java">JAVA</label><br>
+            <input type="checkbox" id="Python">
+            <label for="Python">Python</label><br>
+            <input type="checkbox" id="PHP">
+            <label for="PHP">PHP</label><br>
+            <input type="checkbox" id="Ruby">
+            <label for="Ruby">Ruby</label><br>
+            <input type="checkbox" id="R">
+            <label for="R">R</label><br>
+            <input type="checkbox" id="DataBase">
+            <label for="DataBase">DataBase</label><br>
+
+
+
+            <br><br>
+             <!--Submitt element -->
+             <button type="button" onclick="alert('Thanks for Registerig ! ')">Submitt</button><br>
+             
+         </form>
+    </body>
+</html>
