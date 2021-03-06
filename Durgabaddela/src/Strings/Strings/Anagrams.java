@@ -6,8 +6,8 @@ public class Anagrams
 {
     public static void main(String[] args)
     {
-        String s1="Race";
-        String s2="Care";
+        String s1="face";
+        String s2="race";
      if(s1.length()!=s2.length())//checking the two string lengths
     {
     System.out.println("strings are not anagrams");
