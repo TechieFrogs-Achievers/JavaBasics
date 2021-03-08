@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="font-size: 36; text-align: center;color: rgb(12, 12, 20);"><b>New Student Registration</b></h1>
+    </head>
+    <nav>
+        <a href="Home.html"><span style="font-size: 22px;">Home</span></a><br><br>
+        <a href="NewRegisteration.html"><span style="font-size: 22px;">New Registration</span> </a><br><br>
+        <a href="manageRegistrations.html"><span style="font-size: 22px;">Manage Registrations</span></a><br><br>
+        <a href="Settings.html"><span style="font-size: 22px;">Settings</span></a>
+    </nav>
+    <br><br><br>
+
+    <!-- Craeting form new student registeration  -->
+    <body style="background-color: rgb(206, 173, 236);">
+
+        <form style="font-size: 22px;">
+
+            <table align = "center"cellspacing="15">
+                <tr>
+                   <td>First Name:<td><input type="text" placeholder="Enter First name"></td></td>
+                </tr>
+                <tr>
+                    <td>Last Name:<td><input type="text"placeholder="Enter Last name"></td></td>
+                </tr>
+                <tr>
+                    <td>User Name: <td><input type="text"placeholder="Enter User name"></td></td>
+                </tr>
+                <tr>
+                    <!-- Radio buttons for gender selection -->
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="Gender" id="Male">Male 
+                        <input type="radio" name="Gender" id="Female">Female
+                        <input type="radio" name="Gender" id="Others">Others 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password: <td><input type="password" placeholder="Enter password"></td></td>
+                </tr>
+                <tr>
+                    <td>Qualification: <td><input type="text" placeholder="Qualification"></td></td>
+                </tr>
+
+                <!-- Drop down list -->
+                <tr><td>Branch: </td>
+                    <td>
+                        <select name="Branch" id="Branch">Branch
+                            <option value="">Choose branch</option>
+                            <option value="ECE">ECE</option>
+                            <option value="CSE">CSE</option>
+                            <option value="AGRI">AGRI</option>
+                            <option value="EEE">EEE</option>
+                            <option value="IT">IT</option>
+                        </select></td></tr>
+
+                        <!-- Address bar for entering multi line address content -->
+                <tr>
+                    <td>Address: </td>
+                    <td><textarea name="Address" id="address" cols="30" rows="5"></textarea></td>
+                </tr> 
+                <tr>
+                    <td>City: <td><input type="text"></td></td>
+
+                    <!-- checkbox for selecting various courses -->
+                </tr>
+                <tr><td>Course: </td>
+                    <td><input type="checkbox">C <br>
+                        <input type="checkbox">C# <br>
+                        <input type="checkbox">Java <br>
+                        <input type="checkbox">Python <br>
+                        <input type="checkbox">Ruby <br>
+                        <input type="checkbox">R
+                    </td>
+                </tr>
+
+                <!-- Submitt and cancel buttons -->
+                <tr>
+                    <td><button type="button">Submitt </button> </td>
+                    <td><button type="button"> Cancel</button></td>
+                </tr>
+            </table>
+        </form>
+        <footer style="text-align: center;background-color: rgb(154, 221, 199);font-size: 22px">
+            All rights reserved. @2020 copyright
+        </footer>
+    </body>
+</html>

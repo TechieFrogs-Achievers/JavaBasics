@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <h1 style="text-align: center;"> Application Form</h1>
+    </head>
+    <body style="background-color: rgb(175, 169, 206);">
+        <hr>
+        
+        <label for="First name">First Name* &nbsp;</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="Last name"> Last Name* &nbsp;</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="phone number">Phone number </label>
+        <input type="text" id="phone number" name="phone number">
+        <br><br>
+        <label for="Email ID"> Email ID &nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="Email id" name="Email id" placeholder="xxxxx@gmail.com">
+        
+        <label for="password"> Password &nbsp;</label>
+        <input type="text" id="password" name="password" placeholder="must include 8 characters">
+        
+        <label for="Password"> Re-enter password &nbsp;</label>
+        <input type="text" id="password" name="password" placeholder="Same as before"><br><br>
+
+        <label for="Date"> Date of Birth</label>
+        <input type="date" id="date" name="date">
+        
+        <br><br>
+
+        Gender <br>
+       <input type="radio" id="male" name="gender" value="Male">
+       <label for="male">Male</label><br>
+       <input type="radio" id="female" name="gender" value="Female">
+       <label for="Female"> Female</label><br>
+       <input type="radio" id="others" name="others" value="Others">
+       <label for="Others">Others</label>
+        <br><br>
+
+        Address Line1* <br>
+        <label for="Address"></label>
+        <input type="text" id="Address" required>
+        
+        <br><br>
+        Address Line2 <br>
+        <label for="Address"></label>
+        <input type="text" id="Address">
+
+        <br><br>
+
+        Highest Qualification   
+        <select name="Course" id="Course" >
+            <option value="">Choose Course</option>
+            <option value="Diploma"> Diploma</option>
+            <option value="B.E/B.Tech">B.E/B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.E/M.Tech">M.E/M.Tech</option>
+            <option value="Others">Others</option>
+        </select>
+
+        <br><br>
+
+        Specialisation 
+        <select name="Branch" id="Branch">
+            <option value=""> Choose Branch</option>
+            <option value="ECE">ECE</option>
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="AGRI">AGRI</option>
+            <option value="CIVIL">CIVIL</option>
+        </select><br><br>
+
+        <label for="Roll number">Roll Number &nbsp; </label>
+        <input type="text" id="Roll number" placeholder="University roll number">
+
+        <br><br>
+
+        <input type="checkbox" required> *I agree to the all terms and conditions <br><br>
+
+        <button type="button"> Submitt</button>
+    </body>
+</html>
