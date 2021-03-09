@@ -11,7 +11,7 @@ public class RandomString {
         //String randomString =s1+s2+s3;
 
         StringBuffer sf=new StringBuffer();
-
+        //String sf=new String();
         Random r=new Random();
          int length=7;
 

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Registration</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <h2 align="center">New Registration Form</h2>
+
+<div style="width: 20%; height:100%; float: left; font-size: 200 ">
+        
+            <wapper class="sidenav">
+                <label for="check">
+                <i class="fas fa-bars"><b>Menu Bar</b></i><br/>
+                </label></wapper><br>
+        
+                <div class="menu">
+                    <a href="Home.html"><i class="fas fa-home"></i>Home</a><br>
+                    <a href="login.html"><i class="fas fa-user"></i>signin</a><br>
+                    <a href="Register.html"><i class="fas fa-link"></i>Register</a><br>
+                    <a href="#"><i class="fas fa-address-book"></i>Manage Registration</a><br>
+                    <a href="#"><i class="fas fa-stream"></i>Settings</a><br>
+                    <a href="#"><i class="fas fa-phone-volume"></i>Contact</a><br>
+                </div>
+        </div>
+
+<!--<div style="margin-left: 10%; font-size: 200; height: 100%;"> -->
+
+<style>
+    nav {
+        float: left;
+        max-width: 160px;
+        margin: 0;
+        padding: 1em;
+    }
+</style>
+<form>
+<table style="font-size: 80;"align="center" border="0"  cellspacing="10">
+<tr><td>First Name:</td><td><input type="text" name="firstname"></td><tr><br>
+<tr><td>Last Name:</td><td><input type="text" name="lastname"></td><tr><br>
+<tr><td>username:</td><td><input type="text" name="username"></td><tr><br>
+<tr><td>password:</td><td><input type="password" name="password"></td><tr><br>
+<tr><td> Email:</td><td><input type="text" name="email"></td><tr><br>
+<tr><td> Qualification:</td><td><input type="text" name="email"></td><tr><br>
+    <TR>
+        <TD class = "select">Branch         
+        </TD>   
+        <TD ALIGN="left">
+           <select>
+            <option value="volvo">select</option>
+                <option value="volvo">ECE</option>
+                <option value="saab">CSE</option>
+                <option value="audi">EEE</option>
+           </select>
+        </TD>        
+    </TR>
+<tr><td>City:</td><td><input type="text" name="discription"></td><tr><br>
+<tr><td>Gender:</td>
+<td><div class="radio"><label><input type="radio" id='checkbox' name="optradio">female</label></div></td></tr>
+<tr><td></td><td><div class="radio"><label><input type="radio" id='regular' name="optradio">male</label></div></td></tr>
+<tr><td>Courses<td><input type="checkbox">C<br><input type="checkbox">C++<br><input type="checkbox" >JAVA<br><input type="checkbox">Python</td></tr> 
+                  
+<tr><td> Address:</td><td><textarea name="message" rows="5" cols="20"></textarea></td><tr><br>
+<tr><td> Comments:</td><td><textarea name="message" rows="5" cols="20"></textarea></td><tr><br>
+    
+       
+        
+
+<tr><td></td><td><button type="button" onclick="alert('Thank you')">submit</button></td><tr><br></b>
+</table>
+</form>
+</div>
+
+<!--Styling content-->
+<style>
+    body {background-color: rgba(198, 209, 211, 0.911);
+          font: size 500px;}
+   h1 {color: rgb(114, 119, 182);}
+   
+    body {
+ background-image: url('img_girl.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+</style>
+
+<div align="center" class="social-media">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+
+<style>
+   .fa {
+         padding: 20px;
+         font-size: 20px;
+         width: 50px;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 2px;
+   }
+</style>
+   
+
+<footer style="background-color: #f0f8ff; width: 100%; text-align: center;">  
+   <p>All rights reserved. @2020 copyright </p>  
+   </footer>  
+
+
+ 
+
+</body>
+</html>

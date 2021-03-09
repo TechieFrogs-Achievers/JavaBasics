@@ -15,7 +15,8 @@ public class SubSetsOfString {
             for(int u=i; u<l;u++){
              d = s.substring(i,u+1);
              if(d.length()==1){
-                 continue;
+                 //continue;
+                 arr[k]=d;
              }
              else{
                 arr[k]=d;
