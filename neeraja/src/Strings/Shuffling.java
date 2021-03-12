@@ -27,10 +27,9 @@ public class Shuffling {
              char[] c2=s3.toCharArray();
              Arrays.sort(c1);
              Arrays.sort(c2);
-             System.out.println(c1);
-             System.out.println(c2);
-             //char[] d=c1;
-             //char[] f=c2;
+             //System.out.println(c1);
+             //System.out.println(c2);
+             
              for(int i=0;i<l;i++){
                 if(c1[i]==c2[i]){
                   }

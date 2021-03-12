@@ -5,7 +5,7 @@ public class IndividualCharecters {
         String f="techifrogs";
 
         for(int i=0;i<f.length();i++){
-            System.out.println("charecter at index "+i+"is :"+f.charAt(i) );
+            System.out.println("charecter at index "+i+" is :"+f.charAt(i) );
         }
     }
     

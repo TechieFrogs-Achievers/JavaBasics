@@ -4,7 +4,9 @@ import java.util.Scanner;
 //driver class
 public class Difference {
     public static void main(String[] l){
-        //scanner class to read inputs
+
+//USING WHILE LOOP::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     /*   //scanner class to read inputs
         Scanner sc=new Scanner(System.in);
         System.out.println("enter no:");
         int n=sc.nextInt();
@@ -18,8 +20,31 @@ public class Difference {
          n=n/10;
         }
         //print output
-        System.out.println("DIFFERENCE OF GIVEN NO AND IT'S REVESRE IS:"+ (temp-reverse_no));
+        System.out.println("DIFFERENCE OF GIVEN NO AND IT'S REVESRE IS:"+ (temp-reverse_no));  */
+//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::::::::::::::::::::::::
 
+
+//USING RECURSION :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::::::::::::::::::::::::
+
+        int num=0;
+        System.out.println("Input your number : ");
+        Scanner n = new Scanner(System.in);
+        num = n.nextInt();
+        System.out.print("Reverse of the input number is:");
+        reverseMethod(num);
+        System.out.println();
+        n.close();
+}
+    //method to reverse the given number
+    private static void reverseMethod(int number) {
+        if (number < 10) {
+            System.out.println(number);
+            }
+            else {
+                System.out.print(number % 10);
+                //Method is calling itself: recursion
+                reverseMethod(number/10);
+            }
     }
     
 }
